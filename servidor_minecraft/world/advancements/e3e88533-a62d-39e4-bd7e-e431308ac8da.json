@@ -131,6 +131,12 @@
     },
     "done": true
   },
+  "securitycraft:recipes/securitycraft/sc_manual": {
+    "criteria": {
+      "has_wood": "2025-07-05 02:07:22 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/securitycraft/keycard_lv3": {
     "criteria": {
       "has_iron": "2025-07-05 01:46:11 +0000"
@@ -170,6 +176,12 @@
   "minecraft:recipes/tools/stone_shovel": {
     "criteria": {
       "has_cobblestone": "2025-07-05 01:55:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_logs": "2025-07-05 02:07:22 +0000"
     },
     "done": true
   },
@@ -287,6 +299,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2025-07-05 02:08:17 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/dried_kelp_from_smoking": {
     "criteria": {
       "has_kelp": "2025-07-05 01:54:07 +0000"
@@ -320,6 +338,12 @@
   "minecraft:recipes/misc/skull_banner_pattern": {
     "criteria": {
       "has_wither_skeleton_skull": "2025-07-05 01:49:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_wood": {
+    "criteria": {
+      "has_log": "2025-07-05 02:07:22 +0000"
     },
     "done": true
   },
@@ -398,6 +422,12 @@
   "minecraft:nether/get_wither_skull": {
     "criteria": {
       "wither_skull": "2025-07-05 01:49:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2025-07-05 02:07:09 +0000"
     },
     "done": true
   },
@@ -491,6 +521,12 @@
   "minecraft:recipes/building_blocks/sandstone": {
     "criteria": {
       "has_sand": "2025-07-05 01:54:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2025-07-05 02:07:22 +0000"
     },
     "done": true
   },
@@ -634,6 +670,9 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:skeleton": "2025-07-05 02:05:13 +0000",
+      "minecraft:spider": "2025-07-05 02:08:56 +0000",
+      "minecraft:creeper": "2025-07-05 02:07:08 +0000",
       "minecraft:zombie": "2025-07-05 01:46:54 +0000",
       "minecraft:zombie_villager": "2025-07-05 01:46:10 +0000"
     },

@@ -1,910 +1,251 @@
-[05Jul2025 01:30:34.946] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.42, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
-[05Jul2025 01:30:34.949] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 11.0.27 by Ubuntu
-[05Jul2025 01:30:35.395] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[05Jul2025 01:30:35.598] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/workspaces/llacmahd/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
-[05Jul2025 01:30:36.796] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[05Jul2025 01:30:36.985] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[05Jul2025 01:30:37.028] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[05Jul2025 01:30:37.049] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[05Jul2025 01:30:37.079] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[05Jul2025 01:30:37.100] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[05Jul2025 01:30:37.113] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[05Jul2025 01:30:37.123] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[05Jul2025 01:30:37.135] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[05Jul2025 01:30:37.145] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[05Jul2025 01:30:37.158] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[05Jul2025 01:30:39.906] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
-[05Jul2025 01:30:40.126] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/GameRenderer for invalid dist DEDICATED_SERVER
-[05Jul2025 01:30:40.127] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/GameRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/GameRenderer for invalid dist DEDICATED_SERVER)
-[05Jul2025 01:30:40.127] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.GameRenderer was not found witherstormmod.mixins.json:IMixinGameRenderer
-[05Jul2025 01:30:40.129] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/model/ModelRenderer (java.lang.ClassNotFoundException: null)
-[05Jul2025 01:30:40.131] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.model.ModelRenderer was not found witherstormmod.mixins.json:IMixinModelRenderer
-[05Jul2025 01:30:40.139] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/GameRenderer for invalid dist DEDICATED_SERVER
-[05Jul2025 01:30:40.139] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/GameRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/GameRenderer for invalid dist DEDICATED_SERVER)
-[05Jul2025 01:30:40.140] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.GameRenderer was not found witherstormmod.mixins.json:MixinGameRenderer
-[05Jul2025 01:30:40.141] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/shader/ShaderGroup for invalid dist DEDICATED_SERVER
-[05Jul2025 01:30:40.144] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/shader/ShaderGroup (java.lang.RuntimeException: Attempted to load class net/minecraft/client/shader/ShaderGroup for invalid dist DEDICATED_SERVER)
-[05Jul2025 01:30:40.144] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.shader.ShaderGroup was not found witherstormmod.mixins.json:IMixinShaderGroup
-[05Jul2025 01:30:40.191] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/BlockModelRenderer for invalid dist DEDICATED_SERVER
-[05Jul2025 01:30:40.193] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/BlockModelRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/BlockModelRenderer for invalid dist DEDICATED_SERVER)
-[05Jul2025 01:30:40.194] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.BlockModelRenderer was not found witherstormmod.mixins.json:IMixinBlockModelRenderer
-[05Jul2025 01:30:41.089] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching LivingEntity#attackEntityFrom
-[05Jul2025 01:30:42.879] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching LivingEntity#attackEntityFrom
-[05Jul2025 01:30:47.347] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching ItemStack#onItemUse
-[05Jul2025 01:30:49.238] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching ItemStack#onItemUse
-[05Jul2025 01:30:51.243] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `debug`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
-[05Jul2025 01:30:51.247] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `citadel_book`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
-[05Jul2025 01:30:51.247] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `effect_item`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
-[05Jul2025 01:30:51.249] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `fancy_item`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
-[05Jul2025 01:30:51.429] [modloading-worker-1/INFO] [JarSignVerifier/]: Mod usefulbackpacks is signed with a valid certificate.
-[05Jul2025 01:30:52.109] [modloading-worker-1/INFO] [JarSignVerifier/]: Mod uteamcore is signed with a valid certificate.
-[05Jul2025 01:30:52.441] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.42, for MC 1.16.5 with MCP 20210115.111550
-[05Jul2025 01:30:52.442] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.42 Initialized
-[05Jul2025 01:30:52.868] [modloading-worker-1/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching DataPackRegistries#<init>
-[05Jul2025 01:30:54.801] [main/INFO] [betathunder.enchantedgoldenapplecrafting.EnchantedGoldenAppleCrafting/]: HELLO from Register Block
-[05Jul2025 01:30:56.915] [modloading-worker-0/INFO] [ToolLeveling/]: Created README.txt in config folder.
-[05Jul2025 01:30:56.980] [modloading-worker-0/INFO] [ToolLeveling/]: Config 'tool_leveling_table.json' was successfully loaded.
-[05Jul2025 01:30:56.989] [modloading-worker-0/INFO] [ToolLeveling/]: Saved the checked/corrected config: tool_leveling_table.json
-[05Jul2025 01:30:57.006] [modloading-worker-0/INFO] [ToolLeveling/]: Config 'item_values.json' was successfully loaded.
-[05Jul2025 01:30:57.013] [modloading-worker-0/INFO] [ToolLeveling/]: Saved the checked/corrected config: item_values.json
-[05Jul2025 01:30:57.013] [modloading-worker-0/INFO] [ToolLeveling/]: Config 'command_config.json' was successfully loaded.
-[05Jul2025 01:30:57.017] [modloading-worker-0/INFO] [ToolLeveling/]: Saved the checked/corrected config: command_config.json
-[05Jul2025 01:30:57.040] [modloading-worker-0/INFO] [betathunder.enchantedgoldenapplecrafting.EnchantedGoldenAppleCrafting/]: HELLO FROM PREINIT
-[05Jul2025 01:30:57.041] [modloading-worker-0/INFO] [betathunder.enchantedgoldenapplecrafting.EnchantedGoldenAppleCrafting/]: DIRT BLOCK >> minecraft:dirt
-[05Jul2025 01:30:57.103] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [usefulbackpacks] Starting version check at https://api.u-team.info/update/usefulbackpacks.json
-[05Jul2025 01:30:57.987] [main/INFO] [journeymap/]: Initializing Packet Registries
-[05Jul2025 01:30:58.006] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [usefulbackpacks] Found status: UP_TO_DATE Current: 1.12.1.103 Target: null
-[05Jul2025 01:30:58.007] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore.json
-[05Jul2025 01:30:58.028] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Found status: OUTDATED Current: 3.2.1.229 Target: 3.2.1.378
-[05Jul2025 01:30:58.029] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [silentlib] Starting version check at https://raw.githubusercontent.com/SilentChaos512/SilentLib/1.14/update.json
-[05Jul2025 01:30:58.104] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching LootTableManager#apply
-[05Jul2025 01:30:58.113] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [silentlib] Found status: BETA Current: 4.10.0 Target: null
-[05Jul2025 01:30:58.114] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[05Jul2025 01:30:58.244] [modloading-worker-0/INFO] [betathunder.enchantedgoldenapplecrafting.EnchantedGoldenAppleCrafting/]: Hello world from the MDK
-[05Jul2025 01:30:58.246] [modloading-worker-0/INFO] [betathunder.enchantedgoldenapplecrafting.EnchantedGoldenAppleCrafting/]: Got IMC [Hello world]
-[05Jul2025 01:30:58.330] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 36.2.42 Target: null
-[05Jul2025 01:30:58.332] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
-[05Jul2025 01:30:58.443] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[05Jul2025 02:02:47.093] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.42, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
+[05Jul2025 02:02:47.096] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.1.3+8.1.3+main-8.1.x.c94d18ec starting: java version 11.0.27 by Ubuntu
+[05Jul2025 02:02:47.539] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[05Jul2025 02:02:47.629] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/workspaces/llacmahd/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+[05Jul2025 02:02:48.555] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[05Jul2025 02:02:48.722] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[05Jul2025 02:02:48.738] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[05Jul2025 02:02:48.753] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[05Jul2025 02:02:48.769] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[05Jul2025 02:02:48.781] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[05Jul2025 02:02:48.794] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[05Jul2025 02:02:48.807] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[05Jul2025 02:02:48.818] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[05Jul2025 02:02:48.834] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[05Jul2025 02:02:48.844] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[05Jul2025 02:02:51.486] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[05Jul2025 02:02:51.864] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/GameRenderer for invalid dist DEDICATED_SERVER
+[05Jul2025 02:02:51.869] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/GameRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/GameRenderer for invalid dist DEDICATED_SERVER)
+[05Jul2025 02:02:51.871] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.GameRenderer was not found witherstormmod.mixins.json:IMixinGameRenderer
+[05Jul2025 02:02:51.876] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/model/ModelRenderer (java.lang.ClassNotFoundException: null)
+[05Jul2025 02:02:51.879] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.model.ModelRenderer was not found witherstormmod.mixins.json:IMixinModelRenderer
+[05Jul2025 02:02:51.884] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/GameRenderer for invalid dist DEDICATED_SERVER
+[05Jul2025 02:02:51.887] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/GameRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/GameRenderer for invalid dist DEDICATED_SERVER)
+[05Jul2025 02:02:51.891] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.GameRenderer was not found witherstormmod.mixins.json:MixinGameRenderer
+[05Jul2025 02:02:51.893] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/shader/ShaderGroup for invalid dist DEDICATED_SERVER
+[05Jul2025 02:02:51.897] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/shader/ShaderGroup (java.lang.RuntimeException: Attempted to load class net/minecraft/client/shader/ShaderGroup for invalid dist DEDICATED_SERVER)
+[05Jul2025 02:02:51.898] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.shader.ShaderGroup was not found witherstormmod.mixins.json:IMixinShaderGroup
+[05Jul2025 02:02:51.943] [main/FATAL] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/renderer/BlockModelRenderer for invalid dist DEDICATED_SERVER
+[05Jul2025 02:02:51.946] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/BlockModelRenderer (java.lang.RuntimeException: Attempted to load class net/minecraft/client/renderer/BlockModelRenderer for invalid dist DEDICATED_SERVER)
+[05Jul2025 02:02:51.946] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.BlockModelRenderer was not found witherstormmod.mixins.json:IMixinBlockModelRenderer
+[05Jul2025 02:02:52.614] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching LivingEntity#attackEntityFrom
+[05Jul2025 02:02:54.588] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching LivingEntity#attackEntityFrom
+[05Jul2025 02:02:58.729] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching ItemStack#onItemUse
+[05Jul2025 02:03:00.406] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching ItemStack#onItemUse
+[05Jul2025 02:03:03.175] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `debug`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Jul2025 02:03:03.179] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `citadel_book`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Jul2025 02:03:03.179] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `effect_item`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Jul2025 02:03:03.180] [main/INFO] [net.minecraftforge.registries.GameData/]: Potentially Dangerous alternative prefix `citadel` for name `fancy_item`, expected `minecraft`. This could be a intended override, but in most cases indicates a broken mod.
+[05Jul2025 02:03:03.435] [modloading-worker-1/INFO] [JarSignVerifier/]: Mod usefulbackpacks is signed with a valid certificate.
+[05Jul2025 02:03:04.052] [modloading-worker-0/INFO] [JarSignVerifier/]: Mod uteamcore is signed with a valid certificate.
+[05Jul2025 02:03:04.221] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.42, for MC 1.16.5 with MCP 20210115.111550
+[05Jul2025 02:03:04.222] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.42 Initialized
+[05Jul2025 02:03:04.564] [modloading-worker-1/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching DataPackRegistries#<init>
+[05Jul2025 02:03:06.256] [main/INFO] [betathunder.enchantedgoldenapplecrafting.EnchantedGoldenAppleCrafting/]: HELLO from Register Block
+[05Jul2025 02:03:08.734] [modloading-worker-1/INFO] [ToolLeveling/]: Created README.txt in config folder.
+[05Jul2025 02:03:08.906] [modloading-worker-1/INFO] [ToolLeveling/]: Config 'tool_leveling_table.json' was successfully loaded.
+[05Jul2025 02:03:08.922] [modloading-worker-1/INFO] [ToolLeveling/]: Saved the checked/corrected config: tool_leveling_table.json
+[05Jul2025 02:03:08.929] [modloading-worker-1/INFO] [ToolLeveling/]: Config 'item_values.json' was successfully loaded.
+[05Jul2025 02:03:08.940] [modloading-worker-1/INFO] [ToolLeveling/]: Saved the checked/corrected config: item_values.json
+[05Jul2025 02:03:08.940] [modloading-worker-1/INFO] [ToolLeveling/]: Config 'command_config.json' was successfully loaded.
+[05Jul2025 02:03:08.941] [modloading-worker-1/INFO] [ToolLeveling/]: Saved the checked/corrected config: command_config.json
+[05Jul2025 02:03:08.973] [modloading-worker-1/INFO] [betathunder.enchantedgoldenapplecrafting.EnchantedGoldenAppleCrafting/]: HELLO FROM PREINIT
+[05Jul2025 02:03:08.974] [modloading-worker-1/INFO] [betathunder.enchantedgoldenapplecrafting.EnchantedGoldenAppleCrafting/]: DIRT BLOCK >> minecraft:dirt
+[05Jul2025 02:03:09.038] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [usefulbackpacks] Starting version check at https://api.u-team.info/update/usefulbackpacks.json
+[05Jul2025 02:03:09.779] [main/INFO] [journeymap/]: Initializing Packet Registries
+[05Jul2025 02:03:09.789] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [usefulbackpacks] Found status: UP_TO_DATE Current: 1.12.1.103 Target: null
+[05Jul2025 02:03:09.805] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Starting version check at https://api.u-team.info/update/uteamcore.json
+[05Jul2025 02:03:09.829] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [uteamcore] Found status: OUTDATED Current: 3.2.1.229 Target: 3.2.1.378
+[05Jul2025 02:03:09.831] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [silentlib] Starting version check at https://raw.githubusercontent.com/SilentChaos512/SilentLib/1.14/update.json
+[05Jul2025 02:03:09.875] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [silentlib] Found status: BETA Current: 4.10.0 Target: null
+[05Jul2025 02:03:09.878] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[05Jul2025 02:03:09.978] [main/INFO] [net.minecraftforge.coremod.CoreMod.placebo/COREMODLOG]: Patching LootTableManager#apply
+[05Jul2025 02:03:10.110] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: AHEAD Current: 36.2.42 Target: null
+[05Jul2025 02:03:10.111] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[05Jul2025 02:03:10.134] [modloading-worker-1/INFO] [betathunder.enchantedgoldenapplecrafting.EnchantedGoldenAppleCrafting/]: Hello world from the MDK
+[05Jul2025 02:03:10.136] [modloading-worker-1/INFO] [betathunder.enchantedgoldenapplecrafting.EnchantedGoldenAppleCrafting/]: Got IMC [Hello world]
+[05Jul2025 02:03:10.316] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 java.lang.NullPointerException: null
 	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:160) ~[forge:?]
 	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:187) ~[forge:?]
 	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
 	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:128) [forge:?]
-[05Jul2025 01:30:58.446] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://maxhenkel.de/update/corpse.json
-[05Jul2025 01:30:59.724] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[05Jul2025 02:03:10.319] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://maxhenkel.de/update/corpse.json
+[05Jul2025 02:03:15.185] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 java.lang.NullPointerException: null
 	at net.minecraftforge.fml.VersionChecker$1.openUrlString(VersionChecker.java:160) ~[forge:?]
 	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:187) ~[forge:?]
 	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
 	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:128) [forge:?]
-[05Jul2025 01:30:59.724] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[05Jul2025 01:31:00.018] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: v1.10 Target: v1.10.0.1
-[05Jul2025 01:31:03.451] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[05Jul2025 01:31:04.631] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [deathhistory, player] and [deathhistory, player_uuid] with inputs: [dd12be42-52a9-4a91-a8a1-11c01849e498]
-[05Jul2025 01:31:04.673] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [sh_difficulty, add, server] and [sh_difficulty, add, targets] with inputs: [server]
-[05Jul2025 01:31:04.676] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [sh_difficulty, get, server] and [sh_difficulty, get, targets] with inputs: [server]
-[05Jul2025 01:31:04.682] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [sh_difficulty, set, server] and [sh_difficulty, set, targets] with inputs: [server]
-[05Jul2025 01:31:04.699] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[05Jul2025 01:31:04.713] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[05Jul2025 01:31:04.727] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[05Jul2025 01:31:04.748] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[05Jul2025 01:31:04.768] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[05Jul2025 01:31:04.781] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [waypoint, create, name, dimension, location, color, announce] and [waypoint, create, name, dimension, location, color, player] with inputs: [true, false]
-[05Jul2025 01:31:04.796] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [waypoint, delete, name, announce] and [waypoint, delete, name, player] with inputs: [true, false]
-[05Jul2025 01:31:04.809] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [witherstormmod, bowels, new] and [witherstormmod, bowels, entity] with inputs: [new]
-[05Jul2025 01:31:04.826] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [witherstormmod, cluster, create, pos] and [witherstormmod, cluster, create, start] with inputs: [^1 ^ ^-5, 0 0 0, ~ ~ ~, ^ ^ ^, ~0.5 ~1 ~-5]
-[05Jul2025 01:31:04.838] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [witherstormmod, cluster, create, start] and [witherstormmod, cluster, create, pos] with inputs: [^1 ^ ^-5, 0 0 0, ~ ~ ~, ^ ^ ^, ~0.5 ~1 ~-5]
-[05Jul2025 01:31:04.888] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, witherstormmod-1.16.5-1.0.3.jar, useful_backpacks-1.16.5-1.12.1.103.jar, eternalfood-2.0.0-forge-1.16.5.jar, toolleveling-forge-1.16.5-1.4.4.jar, u_team_core-1.16.5-3.2.1.229.jar, silent-lib-1.16.5-4.10.0.jar, 1.16.5-enchantedgoldenapplecrafting-1.0.jar, jei-1.16.5-7.8.0.1013.jar, totemoverhaul-MC1.16.5-22.06.24re2.jar, forge-1.16.5-36.2.42-universal.jar, ScalingHealth-1.16.5-4.1.5+11.jar, journeymap-1.16.5-5.8.6.jar, corpse-1.16.5-1.0.6.jar, Placebo-1.16.5-4.7.0.jar, MoreEnchantments_MC_1.16.4_Vers.1.4.1.jar, citadel-1.8.1-1.16.5.jar, iceandfire-2.1.12-1.16.5-patch-1.jar, [1.16.5] SecurityCraft v1.10.jar
-[05Jul2025 01:31:08.606] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 8 recipes
-[05Jul2025 01:31:10.565] [Worker-Main-2/INFO] [placebo/]: Registered 0 additional loot tables.
-[05Jul2025 01:31:10.933] [Worker-Main-2/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1579 advancements
-[05Jul2025 01:31:10.948] [Worker-Main-2/INFO] [placebo/]: Registered 0 additional recipes.
-[05Jul2025 01:31:13.579] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
-[05Jul2025 01:31:13.580] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[05Jul2025 01:31:13.580] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[05Jul2025 01:31:13.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[05Jul2025 01:31:13.854] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[05Jul2025 01:31:13.899] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
-[05Jul2025 01:31:14.089] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[05Jul2025 01:31:14.089] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[05Jul2025 01:31:14.089] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[05Jul2025 01:31:14.090] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[05Jul2025 01:31:14.134] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/witherstormmod-server.toml is not correct. Correcting
-[05Jul2025 01:31:14.138] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[05Jul2025 01:31:14.138] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.shouldChunkLoadWhenNoPlayers was corrected from null to its default, false. 
-[05Jul2025 01:31:14.139] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.shouldAccelerateWhenTargetStopped was corrected from null to its default, true. 
-[05Jul2025 01:31:14.140] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.targetStationaryChunkRadius was corrected from null to its default, 8. 
-[05Jul2025 01:31:14.142] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.playerPickupChance was corrected from null to its default, 4. 
-[05Jul2025 01:31:14.144] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.evolutionAttributeModifier was corrected from null to its default, 1.0. 
-[05Jul2025 01:31:14.144] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.targetStationaryMinutes was corrected from null to its default, 30. 
-[05Jul2025 01:31:14.145] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.targetRunawayMinutes was corrected from null to its default, 10. 
-[05Jul2025 01:31:14.148] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.invulnerabilityTime was corrected from null to its default, 50. 
-[05Jul2025 01:31:14.148] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.targetStationaryFlyingSpeed was corrected from null to its default, 0.4. 
-[05Jul2025 01:31:14.148] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.slowFlyingSpeed was corrected from null to its default, 0.02. 
-[05Jul2025 01:31:14.150] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.usePhaseAsDistanceMultiplier was corrected from null to its default, true. 
-[05Jul2025 01:31:14.151] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.distanceMultiplier was corrected from null to its default, 1.0. 
-[05Jul2025 01:31:14.153] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.accelerateOnPhaseChange was corrected from null to its default, true. 
-[05Jul2025 01:31:14.154] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.targetRunawayAttempts was corrected from null to its default, true. 
-[05Jul2025 01:31:14.155] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.targetRunawayAttemptMinutes was corrected from null to its default, 2. 
-[05Jul2025 01:31:14.158] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.targetRunawayAttemptsRequired was corrected from null to its default, 5. 
-[05Jul2025 01:31:14.158] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.minutesTillRunawayAttemptDiminish was corrected from null to its default, 16. 
-[05Jul2025 01:31:14.158] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.targettingDistractiosnEnabled was corrected from null to its default, true. 
-[05Jul2025 01:31:14.160] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.distractionTimeMinutes was corrected from null to its default, 25. 
-[05Jul2025 01:31:14.162] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.maximumDistractionDistance was corrected from null to its default, 1000. 
-[05Jul2025 01:31:14.164] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.minimumDistractionDistance was corrected from null to its default, 50. 
-[05Jul2025 01:31:14.165] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.randomDistractionChances was corrected from null to its default, true. 
-[05Jul2025 01:31:14.167] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.searchableRangeMultiplier was corrected from null to its default, 1. 
-[05Jul2025 01:31:14.172] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.distractionWaitTime was corrected from null to its default, 2. 
-[05Jul2025 01:31:14.173] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.clustersRemoveItems was corrected from null to its default, true. 
-[05Jul2025 01:31:14.173] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.squashHitbox was corrected from null to its default, false. 
-[05Jul2025 01:31:14.173] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.hunchbackClusterPickupInterval was corrected from null to its default, 20. 
-[05Jul2025 01:31:14.177] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.clusterPickupInterval was corrected from null to its default, 40. 
-[05Jul2025 01:31:14.180] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.flyingHeight was corrected from null to its default, 75. 
-[05Jul2025 01:31:14.180] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.tillShouldShowHole was corrected from null to its default, 6. 
-[05Jul2025 01:31:14.180] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.wither sickness was corrected from null to its default, SimpleCommentedConfig:{}. 
-[05Jul2025 01:31:14.182] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.wither sickness.witherSicknessEnabled was corrected from null to its default, true. 
-[05Jul2025 01:31:14.184] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.wither sickness.sickenedMobConversions was corrected from null to its default, true. 
-[05Jul2025 01:31:14.186] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.wither sickness.increaseAmplifier was corrected from null to its default, true. 
-[05Jul2025 01:31:14.188] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.wither sickness.requiredContacts was corrected from null to its default, 6. 
-[05Jul2025 01:31:14.188] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.wither sickness.requiredProximitySeconds was corrected from null to its default, 600. 
-[05Jul2025 01:31:14.190] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.wither sickness.applicationDelay was corrected from null to its default, 720. 
-[05Jul2025 01:31:14.193] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.wither sickness.cureDelay was corrected from null to its default, 480. 
-[05Jul2025 01:31:14.195] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.wither sickness.lowImmuneRequiredProximitySeconds was corrected from null to its default, 360. 
-[05Jul2025 01:31:14.195] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.wither sickness.lowImmuneApplicationDelay was corrected from null to its default, 410. 
-[05Jul2025 01:31:14.197] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.wither sickness.lowImmuneCureDelay was corrected from null to its default, 480. 
-[05Jul2025 01:31:14.201] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.wither sickness.proximitySecondsModifierMax was corrected from null to its default, 180. 
-[05Jul2025 01:31:14.201] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.wither sickness.applicationDelayModifierMax was corrected from null to its default, 300. 
-[05Jul2025 01:31:14.202] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.wither sickness.cureDelayModifierMax was corrected from null to its default, 180. 
-[05Jul2025 01:31:14.204] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.wither sickness.lowImmuneProximityModifierMax was corrected from null to its default, 180. 
-[05Jul2025 01:31:14.207] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.wither sickness.lowImmuneApplicationModifierMax was corrected from null to its default, 140. 
-[05Jul2025 01:31:14.207] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.wither sickness.lowImmuneCureDelayModifierMax was corrected from null to its default, 180. 
-[05Jul2025 01:31:14.208] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.formidibomb was corrected from null to its default, SimpleCommentedConfig:{}. 
-[05Jul2025 01:31:14.208] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.formidibomb.craftFuseTicks was corrected from null to its default, 12000. 
-[05Jul2025 01:31:14.208] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.formidibomb.catchFireFuseTicks was corrected from null to its default, 1200. 
-[05Jul2025 01:31:14.209] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.formidibomb.shouldDropFromInventory was corrected from null to its default, true. 
-[05Jul2025 01:31:14.213] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.formidibomb.dropInterval was corrected from null to its default, 4. 
-[05Jul2025 01:31:14.214] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.playing dead was corrected from null to its default, SimpleCommentedConfig:{}. 
-[05Jul2025 01:31:14.216] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.playing dead.revivalTimer was corrected from null to its default, true. 
-[05Jul2025 01:31:14.218] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.playing dead.revivalTimeMinutes was corrected from null to its default, 60. 
-[05Jul2025 01:31:14.221] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.playing dead.revivalPlayerProtection was corrected from null to its default, 3. 
-[05Jul2025 01:31:14.226] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.withered symbiont was corrected from null to its default, SimpleCommentedConfig:{}. 
-[05Jul2025 01:31:14.226] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.withered symbiont.minimumSpawnCheckInterval was corrected from null to its default, 60. 
-[05Jul2025 01:31:14.226] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.withered symbiont.witherStormSummingDelay was corrected from null to its default, 10. 
-[05Jul2025 01:31:14.227] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.withered symbiont.playerInvulnerableTime was corrected from null to its default, 5. 
-[05Jul2025 01:31:14.228] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.withered symbiont.playerSummoningDelay was corrected from null to its default, 10. 
-[05Jul2025 01:31:14.230] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.withered symbiont.playerSummoningDelayOnKill was corrected from null to its default, 40. 
-[05Jul2025 01:31:14.266] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/usefulbackpacks-server.toml is not correct. Correcting
-[05Jul2025 01:31:14.271] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[05Jul2025 01:31:14.275] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.shareAllNBTData was corrected from null to its default, true. 
-[05Jul2025 01:31:14.292] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/forge-server.toml is not correct. Correcting
-[05Jul2025 01:31:14.295] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[05Jul2025 01:31:14.296] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
-[05Jul2025 01:31:14.299] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringTileEntities was corrected from null to its default, false. 
-[05Jul2025 01:31:14.299] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
-[05Jul2025 01:31:14.299] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
-[05Jul2025 01:31:14.302] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
-[05Jul2025 01:31:14.305] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.logCascadingWorldGeneration was corrected from null to its default, true. 
-[05Jul2025 01:31:14.306] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixVanillaCascading was corrected from null to its default, false. 
-[05Jul2025 01:31:14.307] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.dimensionUnloadQueueDelay was corrected from null to its default, 0. 
-[05Jul2025 01:31:14.309] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.treatEmptyTagsAsAir was corrected from null to its default, false. 
-[05Jul2025 01:31:14.310] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixAdvancementLoading was corrected from null to its default, true. 
-[05Jul2025 01:31:14.317] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/scalinghealth-server.toml is not correct. Correcting
-[05Jul2025 01:31:14.319] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features was corrected from null to its default, SimpleCommentedConfig:{}. 
-[05Jul2025 01:31:14.321] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.crystalsAddHealth was corrected from null to its default, true. 
-[05Jul2025 01:31:14.321] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.xpAddHealth was corrected from null to its default, true. 
-[05Jul2025 01:31:14.321] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.crystalsRegenHealth was corrected from null to its default, true. 
-[05Jul2025 01:31:14.322] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.crystalsAddPetHealth was corrected from null to its default, true. 
-[05Jul2025 01:31:14.323] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.crystalsAddDamage was corrected from null to its default, true. 
-[05Jul2025 01:31:14.325] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.hpCrystalsOreGen was corrected from null to its default, true. 
-[05Jul2025 01:31:14.327] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.powerCrystalsOreGen was corrected from null to its default, true. 
-[05Jul2025 01:31:14.330] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.mobHpIncrease was corrected from null to its default, true. 
-[05Jul2025 01:31:14.330] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.mobDamageIncrease was corrected from null to its default, true. 
-[05Jul2025 01:31:14.331] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.playerDamageScaling was corrected from null to its default, true. 
-[05Jul2025 01:31:14.331] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.mobDamageScaling was corrected from null to its default, true. 
-[05Jul2025 01:31:14.333] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.enableDifficulty was corrected from null to its default, true. 
-[05Jul2025 01:31:14.335] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key features.enableBlights was corrected from null to its default, true. 
-[05Jul2025 01:31:14.337] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key debug was corrected from null to its default, SimpleCommentedConfig:{}. 
-[05Jul2025 01:31:14.337] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key debug.masterSwitch was corrected from null to its default, false. 
-[05Jul2025 01:31:14.340] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key debug.showOverlay was corrected from null to its default, true. 
-[05Jul2025 01:31:14.341] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key debug.logEntitySpawns was corrected from null to its default, false. 
-[05Jul2025 01:31:14.342] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key debug.logApplyingMobPotions was corrected from null to its default, false. 
-[05Jul2025 01:31:14.343] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key debug.logDamageScaling was corrected from null to its default, false. 
-[05Jul2025 01:31:14.353] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/journeymap-server.toml is not correct. Correcting
-[05Jul2025 01:31:14.355] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins was corrected from null to its default, SimpleCommentedConfig:{}. 
-[05Jul2025 01:31:14.355] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins.opAccess was corrected from null to its default, true. 
-[05Jul2025 01:31:14.357] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key admins.serverAdmins was corrected from null to its default, [mysticdrew, 79f597fe-2877-4ecb-acdf-8c58cc1854ca]. 
-[05Jul2025 01:31:14.359] [Thread-0/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[05Jul2025 01:31:14.359] [Thread-0/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[05Jul2025 01:31:14.359] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[05Jul2025 01:31:14.364] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/corpse-server.toml is not correct. Correcting
-[05Jul2025 01:31:14.365] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse was corrected from null to its default, SimpleCommentedConfig:{}. 
-[05Jul2025 01:31:14.366] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.access was corrected from null to its default, SimpleCommentedConfig:{}. 
-[05Jul2025 01:31:14.368] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.access.only_owner was corrected from null to its default, false. 
-[05Jul2025 01:31:14.368] [Thread-0/INFO] [journeymap/]: Loading JourneyMap Forge Configs
-[05Jul2025 01:31:14.368] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.access.skeleton was corrected from null to its default, false. 
-[05Jul2025 01:31:14.369] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.despawn was corrected from null to its default, SimpleCommentedConfig:{}. 
-[05Jul2025 01:31:14.369] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.despawn.time was corrected from null to its default, 600. 
-[05Jul2025 01:31:14.370] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.despawn.force_time was corrected from null to its default, -1. 
-[05Jul2025 01:31:14.371] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.skeleton_time was corrected from null to its default, 72000. 
-[05Jul2025 01:31:14.374] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.lie_on_face was corrected from null to its default, false. 
-[05Jul2025 01:31:14.374] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.show_equipment was corrected from null to its default, true. 
-[05Jul2025 01:31:14.375] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.fall_into_void was corrected from null to its default, false. 
-[05Jul2025 01:31:14.375] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key corpse.lava_damage was corrected from null to its default, false. 
-[05Jul2025 01:31:14.379] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key death_storage_duration was corrected from null to its default, -1. 
-[05Jul2025 01:31:14.388] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/securitycraft-server.toml is not correct. Correcting
-[05Jul2025 01:31:14.389] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key codebreaker_chance was corrected from null to its default, 0.33. 
-[05Jul2025 01:31:14.394] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowAdminTool was corrected from null to its default, true. 
-[05Jul2025 01:31:14.398] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key shouldSpawnFire was corrected from null to its default, true. 
-[05Jul2025 01:31:14.399] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key smallerMineExplosion was corrected from null to its default, false. 
-[05Jul2025 01:31:14.401] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mineExplodesWhenInCreative was corrected from null to its default, true. 
-[05Jul2025 01:31:14.408] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key mineExplosionsBreakBlocks was corrected from null to its default, true. 
-[05Jul2025 01:31:14.412] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key laserBlockRange was corrected from null to its default, 5. 
-[05Jul2025 01:31:14.416] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key inventoryScannerRange was corrected from null to its default, 3. 
-[05Jul2025 01:31:14.418] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key maxAlarmRange was corrected from null to its default, 100. 
-[05Jul2025 01:31:14.425] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allowBlockClaim was corrected from null to its default, false. 
-[05Jul2025 01:31:14.431] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key reinforced_block_tint was corrected from null to its default, true. 
-[05Jul2025 01:31:14.437] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key force_reinforced_block_tint was corrected from null to its default, false. 
-[05Jul2025 01:31:14.440] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key retinalScannerFace was corrected from null to its default, true. 
-[05Jul2025 01:31:14.443] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key enable_team_ownership was corrected from null to its default, false. 
-[05Jul2025 01:31:14.447] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key team_ownership_precedence was corrected from null to its default, [FTB_TEAMS, VANILLA]. 
-[05Jul2025 01:31:14.454] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key disable_thanks_message was corrected from null to its default, false. 
-[05Jul2025 01:31:14.457] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trick_scanners_with_player_heads was corrected from null to its default, false. 
-[05Jul2025 01:31:14.463] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key prevent_reinforced_floor_glitching was corrected from null to its default, false. 
-[05Jul2025 01:31:14.468] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key taser_damage was corrected from null to its default, 1.0. 
-[05Jul2025 01:31:14.469] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key powered_taser_damage was corrected from null to its default, 2.0. 
-[05Jul2025 01:31:14.475] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key taser_effects was corrected from null to its default, [minecraft:weakness|200|2, minecraft:nausea|200|2, minecraft:slowness|200|2]. 
-[05Jul2025 01:31:14.479] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key powered_taser_effects was corrected from null to its default, [minecraft:weakness|400|5, minecraft:nausea|400|5, minecraft:slowness|400|5]. 
-[05Jul2025 01:31:14.484] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key laser_damage was corrected from null to its default, 10.0. 
-[05Jul2025 01:31:14.488] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key incorrectPasscodeDamage was corrected from null to its default, 4. 
-[05Jul2025 01:31:14.493] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sentry_bullet_damage was corrected from null to its default, 2. 
-[05Jul2025 01:31:14.498] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key reinforced_suffocation_damage was corrected from null to its default, 5. 
-[05Jul2025 01:31:14.503] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allow_camera_night_vision was corrected from null to its default, true. 
-[05Jul2025 01:31:14.506] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key passcode_check_cooldown was corrected from null to its default, 250. 
-[05Jul2025 01:31:14.513] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key passcode_spam_log_warning_enabled was corrected from null to its default, true. 
-[05Jul2025 01:31:14.519] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key passcode_spam_log_warning was corrected from null to its default, Player "%1$s" tried to enter a passcode into "%2$s" at position [%3$s] too quickly!. 
-[05Jul2025 01:31:14.523] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key in_world_un_reinforcing was corrected from null to its default, true. 
-[05Jul2025 01:31:14.527] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key frame_feed_viewing_enabled was corrected from null to its default, true. 
-[05Jul2025 01:31:14.534] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key frame_feed_view_distance was corrected from null to its default, 16. 
-[05Jul2025 01:31:14.539] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key vanilla_tool_block_breaking was corrected from null to its default, true. 
-[05Jul2025 01:31:14.544] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key always_drop was corrected from null to its default, true. 
-[05Jul2025 01:31:14.548] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key allow_breaking_non_owned_blocks was corrected from null to its default, false. 
-[05Jul2025 01:31:14.552] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key non_owned_breaking_slowdown was corrected from null to its default, 1.0. 
-[05Jul2025 01:31:14.556] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sentry_attackable_entities_allowlist was corrected from null to its default, []. 
-[05Jul2025 01:31:14.559] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key sentry_attackable_entities_denylist was corrected from null to its default, []. 
-[05Jul2025 01:31:14.581] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./world/serverconfig/jei-server.toml is not correct. Correcting
-[05Jul2025 01:31:14.581] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode was corrected from null to its default, SimpleCommentedConfig:{}. 
-[05Jul2025 01:31:14.582] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForOp was corrected from null to its default, true. 
-[05Jul2025 01:31:14.582] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForCreative was corrected from null to its default, true. 
-[05Jul2025 01:31:14.586] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForGive was corrected from null to its default, false. 
-[05Jul2025 01:31:14.647] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[05Jul2025 01:31:15.441] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
-[05Jul2025 01:31:21.282] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
-[05Jul2025 01:31:23.053] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[05Jul2025 01:31:23.364] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[05Jul2025 01:31:23.559] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[05Jul2025 01:31:24.064] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[05Jul2025 01:31:24.591] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[05Jul2025 01:31:24.980] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
-[05Jul2025 01:31:25.075] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[05Jul2025 01:31:25.651] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 1%
-[05Jul2025 01:31:26.060] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 1%
-[05Jul2025 01:31:26.790] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 2%
-[05Jul2025 01:31:27.107] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 2%
-[05Jul2025 01:31:27.406] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
-[05Jul2025 01:31:27.583] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 2%
-[05Jul2025 01:31:28.151] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 3%
-[05Jul2025 01:31:28.638] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 4%
-[05Jul2025 01:31:29.067] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 4%
-[05Jul2025 01:31:29.587] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 5%
-[05Jul2025 01:31:30.060] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 7%
-[05Jul2025 01:31:30.585] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 7%
-[05Jul2025 01:31:31.103] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 9%
-[05Jul2025 01:31:31.568] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 9%
-[05Jul2025 01:31:31.910] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
-[05Jul2025 01:31:32.069] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 10%
-[05Jul2025 01:31:32.577] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 11%
-[05Jul2025 01:31:33.062] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 12%
-[05Jul2025 01:31:33.627] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 14%
-[05Jul2025 01:31:34.061] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 15%
-[05Jul2025 01:31:34.570] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 16%
-[05Jul2025 01:31:35.060] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 17%
-[05Jul2025 01:31:35.585] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 19%
-[05Jul2025 01:31:36.074] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 21%
-[05Jul2025 01:31:36.556] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 22%
-[05Jul2025 01:31:37.089] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 24%
-[05Jul2025 01:31:37.559] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 25%
-[05Jul2025 01:31:38.090] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 26%
-[05Jul2025 01:31:38.580] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 28%
-[05Jul2025 01:31:39.151] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 30%
-[05Jul2025 01:31:39.558] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 31%
-[05Jul2025 01:31:40.056] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 33%
-[05Jul2025 01:31:40.615] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 34%
-[05Jul2025 01:31:41.073] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 35%
-[05Jul2025 01:31:41.600] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 37%
-[05Jul2025 01:31:42.066] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 40%
-[05Jul2025 01:31:42.110] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
-[05Jul2025 01:31:42.557] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 42%
-[05Jul2025 01:31:43.064] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 43%
-[05Jul2025 01:31:43.616] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 44%
-[05Jul2025 01:31:44.096] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 45%
-[05Jul2025 01:31:44.558] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 46%
-[05Jul2025 01:31:44.827] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
-[05Jul2025 01:31:45.060] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 47%
-[05Jul2025 01:31:45.117] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
-[05Jul2025 01:31:45.593] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 48%
-[05Jul2025 01:31:46.057] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 50%
-[05Jul2025 01:31:46.574] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 52%
-[05Jul2025 01:31:47.060] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 54%
-[05Jul2025 01:31:47.560] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 56%
-[05Jul2025 01:31:48.060] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 58%
-[05Jul2025 01:31:48.622] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 58%
-[05Jul2025 01:31:49.077] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 60%
-[05Jul2025 01:31:49.563] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 63%
-[05Jul2025 01:31:50.074] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 65%
-[05Jul2025 01:31:50.617] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 67%
-[05Jul2025 01:31:51.069] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 68%
-[05Jul2025 01:31:51.556] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 68%
-[05Jul2025 01:31:52.057] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 70%
-[05Jul2025 01:31:52.567] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 72%
-[05Jul2025 01:31:53.102] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 72%
-[05Jul2025 01:31:53.651] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 72%
-[05Jul2025 01:31:54.223] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 74%
-[05Jul2025 01:31:54.273] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
-[05Jul2025 01:31:54.580] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 75%
-[05Jul2025 01:31:55.079] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 76%
-[05Jul2025 01:31:55.567] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 79%
-[05Jul2025 01:31:56.072] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 81%
-[05Jul2025 01:31:56.556] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[05Jul2025 01:31:57.085] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 84%
-[05Jul2025 01:31:57.564] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 86%
-[05Jul2025 01:31:58.069] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 88%
-[05Jul2025 01:31:58.592] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 89%
-[05Jul2025 01:31:59.107] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 91%
-[05Jul2025 01:31:59.556] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 93%
-[05Jul2025 01:32:00.058] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 95%
-[05Jul2025 01:32:00.605] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 96%
-[05Jul2025 01:32:01.065] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 99%
-[05Jul2025 01:32:01.221] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 38166 ms
-[05Jul2025 01:32:01.222] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (47.101s)! For help, type "help"
-[05Jul2025 01:32:01.296] [Server thread/INFO] [betathunder.enchantedgoldenapplecrafting.EnchantedGoldenAppleCrafting/]: HELLO from server starting
-[05Jul2025 01:32:01.413] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {SPAWN_DRAGON_SKELETON_I_CF=true, HYDRA_CAVE_CF=true, SPAWN_SEA_SERPENT_CF=true, SPAWN_STYMPHALIAN_BIRD_CF=true, SPAWN_WANDERING_CYCLOPS_CF=true, PIXIE_VILLAGE_CF=false, SPAWN_DEATH_WORM_CF=true, FIRE_DRAGON_CAVE_CF=true, SIREN_ISLAND_CF=true, MYRMEX_HIVE_DESERT_CF=true, SPAWN_HIPPOCAMPUS_CF=true, FIRE_DRAGON_ROOST_CF=true, MYRMEX_HIVE_JUNGLE_CF=true, GORGON_TEMPLE_CF=true, COPPER_ORE_CF=true, SILVER_ORE_CF=true, LIGHTNING_DRAGON_CAVE_CF=true, SPAWN_DRAGON_SKELETON_F_CF=true, AMETHYST_ORE_CF=true, SPAWN_DRAGON_SKELETON_L_CF=true, LIGHTNING_LILY_CF=true, MAUSOLEUM_CF=true, ICE_DRAGON_CAVE_CF=true, GRAVEYARD_CF=true, SAPPHIRE_ORE_CF=true, LIGHTNING_DRAGON_ROOST_CF=true, CYCLOPS_CAVE_CF=true, FROST_LILY_CF=true, FIRE_LILY_CF=true, ICE_DRAGON_ROOST_CF=true}
-[05Jul2025 01:32:01.413] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
-[05Jul2025 01:32:04.352] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2889ms or 57 ticks behind
-[05Jul2025 01:32:06.978] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@5e585790[id=<null>,name=iurno,properties={},legacy=false] (/100.127.107.84:58744) lost connection: Internal Exception: java.util.ConcurrentModificationException
-[05Jul2025 01:32:13.081] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@3d88e4b8
-[05Jul2025 01:32:13.119] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: TonTin[/100.127.139.120:58683] logged in with entity id 327 at (-194.5, 64.0, 150.5)
-[05Jul2025 01:32:13.177] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: TonTin joined the game
-[05Jul2025 01:32:13.466] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:general'
-[05Jul2025 01:32:13.470] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:item_values'
-[05Jul2025 01:32:13.472] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:commands'
-[05Jul2025 01:32:13.889] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: TonTin has made the advancement [Ice and Fire]
-[05Jul2025 01:32:15.009] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@1eb1df80
-[05Jul2025 01:32:15.027] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: JeanPincho[/100.90.254.118:61712] logged in with entity id 396 at (-189.5, 63.0, 150.5)
-[05Jul2025 01:32:15.032] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: JeanPincho joined the game
-[05Jul2025 01:32:15.127] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:general'
-[05Jul2025 01:32:15.128] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:item_values'
-[05Jul2025 01:32:15.129] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:commands'
-[05Jul2025 01:32:15.222] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: JeanPincho has made the advancement [Ice and Fire]
-[05Jul2025 01:32:15.797] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@64d192c6
-[05Jul2025 01:32:15.811] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: iurno[/100.127.107.84:58754] logged in with entity id 403 at (-191.5, 69.0, 160.5)
-[05Jul2025 01:32:15.814] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: iurno joined the game
-[05Jul2025 01:32:15.994] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:general'
-[05Jul2025 01:32:15.994] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:item_values'
-[05Jul2025 01:32:15.994] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:commands'
-[05Jul2025 01:32:16.073] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: iurno has made the advancement [Ice and Fire]
-[05Jul2025 01:32:20.748] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: iurno lost connection: Disconnected
-[05Jul2025 01:32:20.751] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: iurno left the game
-[05Jul2025 01:32:23.080] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3767ms or 75 ticks behind
-[05Jul2025 01:32:38.191] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: TonTin lost connection: Disconnected
-[05Jul2025 01:32:38.194] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: TonTin left the game
-[05Jul2025 01:34:22.608] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Made JeanPincho a server operator
-[05Jul2025 01:34:28.284] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Set own game mode to Creative Mode]
-[05Jul2025 01:34:52.682] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Set own game mode to Survival Mode]
-[05Jul2025 01:35:03.924] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Set own game mode to Creative Mode]
-[05Jul2025 01:36:15.243] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@44413e43
-[05Jul2025 01:36:15.260] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: TonTin[/100.127.139.120:58784] logged in with entity id 1135 at (-193.17781722059485, 66.0, 151.69999998807907)
-[05Jul2025 01:36:15.269] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: TonTin joined the game
-[05Jul2025 01:36:15.388] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:general'
-[05Jul2025 01:36:15.392] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:item_values'
-[05Jul2025 01:36:15.393] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:commands'
-[05Jul2025 01:36:33.773] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: TonTin was kicked for floating too long!
-[05Jul2025 01:36:33.776] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: TonTin lost connection: Flying is not enabled on this server
-[05Jul2025 01:36:33.777] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: TonTin left the game
-[05Jul2025 01:36:33.823] [Server thread/WARN] [net.minecraft.network.NetworkManager/]: handleDisconnection() called twice
-[05Jul2025 01:37:06.976] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@636c6ab3
-[05Jul2025 01:37:06.982] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: iurno[/100.127.107.84:58912] logged in with entity id 1245 at (-191.5, 69.0, 160.5)
-[05Jul2025 01:37:06.987] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: iurno joined the game
-[05Jul2025 01:37:07.095] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:general'
-[05Jul2025 01:37:07.096] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:item_values'
-[05Jul2025 01:37:07.096] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:commands'
-[05Jul2025 01:37:14.475] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Set own game mode to Survival Mode]
-[05Jul2025 01:37:21.925] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Set own game mode to Creative Mode]
-[05Jul2025 01:37:22.223] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: iurno lost connection: Disconnected
-[05Jul2025 01:37:22.223] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: iurno left the game
-[05Jul2025 01:37:33.409] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Set own game mode to Survival Mode]
-[05Jul2025 01:37:37.336] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Set own game mode to Creative Mode]
-[05Jul2025 01:37:42.172] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Set own game mode to Survival Mode]
-[05Jul2025 01:37:43.895] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: JeanPincho fell from a high place
-[05Jul2025 01:37:45.386] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[05Jul2025 01:37:45.388] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
-[05Jul2025 01:37:56.424] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@629b67e6[id=<null>,name=Yair1700pro,properties={},legacy=false] (/100.110.29.36:62914) lost connection: Disconnected
-[05Jul2025 01:37:59.925] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@d80b258[id=<null>,name=Yair1700pro,properties={},legacy=false] (/100.110.29.36:62918) lost connection: Disconnected
-[05Jul2025 01:38:10.860] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Set own game mode to Creative Mode]
-[05Jul2025 01:38:21.371] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@62fa4575[id=<null>,name=Yair1700pro,properties={},legacy=false] (/100.110.29.36:62932) lost connection: Disconnected
-[05Jul2025 01:38:29.457] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Set own game mode to Survival Mode]
-[05Jul2025 01:38:36.988] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Set own game mode to Creative Mode]
-[05Jul2025 01:39:39.873] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Set own game mode to Survival Mode]
-[05Jul2025 01:39:42.391] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Set own game mode to Creative Mode]
-[05Jul2025 01:39:45.957] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Set own game mode to Survival Mode]
-[05Jul2025 01:39:51.025] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Set own game mode to Creative Mode]
-[05Jul2025 01:39:57.022] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Set own game mode to Survival Mode]
-[05Jul2025 01:39:58.893] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: JeanPincho fell from a high place
-[05Jul2025 01:40:00.431] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[05Jul2025 01:40:00.434] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
-[05Jul2025 01:40:11.412] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Set own game mode to Creative Mode]
-[05Jul2025 01:40:16.823] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Set own game mode to Survival Mode]
-[05Jul2025 01:40:20.484] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Set own game mode to Creative Mode]
-[05Jul2025 01:40:27.426] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Set own game mode to Survival Mode]
-[05Jul2025 01:40:29.450] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: JeanPincho fell from a high place
-[05Jul2025 01:40:30.698] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[05Jul2025 01:40:30.698] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 difficulty
-[05Jul2025 01:41:04.076] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@35a7d58f
-[05Jul2025 01:41:04.082] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: TonTin[/100.127.139.120:58911] logged in with entity id 1843 at (-192.41751763193452, 70.24918707874468, 163.16870855044652)
-[05Jul2025 01:41:04.085] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: TonTin joined the game
-[05Jul2025 01:41:04.120] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:general'
-[05Jul2025 01:41:04.121] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:item_values'
-[05Jul2025 01:41:04.121] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:commands'
-[05Jul2025 01:41:14.610] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Set own game mode to Creative Mode]
-[05Jul2025 01:41:18.247] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Teleported JeanPincho to TonTin]
-[05Jul2025 01:41:23.922] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: TonTin lost connection: Disconnected
-[05Jul2025 01:41:23.922] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: TonTin left the game
-[05Jul2025 01:43:28.171] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@43008b81[id=<null>,name=Yair1700pro,properties={},legacy=false] (/100.110.29.36:63173) lost connection: Disconnected
-[05Jul2025 01:43:30.771] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@43141c5b[id=<null>,name=Yair1700pro,properties={},legacy=false] (/100.110.29.36:63177) lost connection: Disconnected
-[05Jul2025 01:44:27.728] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@49fa935a
-[05Jul2025 01:44:27.742] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: iurno[/100.127.107.84:59034] logged in with entity id 2235 at (-191.5, 69.0, 160.5)
-[05Jul2025 01:44:27.746] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: iurno joined the game
-[05Jul2025 01:44:27.837] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:general'
-[05Jul2025 01:44:27.837] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:item_values'
-[05Jul2025 01:44:27.837] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:commands'
-[05Jul2025 01:44:43.827] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> muevete aver
-[05Jul2025 01:44:56.473] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> ya esta contigo
-[05Jul2025 01:45:01.111] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> el otro culon nose xd
-[05Jul2025 01:45:03.359] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <iurno> ya tengo la solucion
-[05Jul2025 01:45:05.972] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> q hiciste nd ?
-[05Jul2025 01:45:07.171] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <iurno> es el optifine
-[05Jul2025 01:45:08.973] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> q es
-[05Jul2025 01:45:12.556] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> es con o sin?
-[05Jul2025 01:45:13.424] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <iurno> estaba en forge optifine
-[05Jul2025 01:45:18.426] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <iurno> y me meti a solo forge
-[05Jul2025 01:45:25.371] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> a yaya dile eso al alejo
-[05Jul2025 01:45:31.876] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> esq ustedes son de tlauncher
-[05Jul2025 01:45:35.450] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <iurno> sabes como me di cuenta
-[05Jul2025 01:45:39.696] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <iurno> pq tu no tenias el opti fina
-[05Jul2025 01:45:42.753] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <iurno> y te cargaba pe
-[05Jul2025 01:45:52.638] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <iurno> entonces lo probe
-[05Jul2025 01:46:10.852] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: JeanPincho has made the advancement [Monster Hunter]
-[05Jul2025 01:46:11.337] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: JeanPincho has made the advancement [Acquire Hardware]
-[05Jul2025 01:46:22.458] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> te dare pa pruebes los mods
-[05Jul2025 01:46:26.524] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <iurno> yaya
-[05Jul2025 01:46:41.473] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@690394a0
-[05Jul2025 01:46:41.479] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: TonTin[/100.127.139.120:59016] logged in with entity id 2526 at (-189.4383500192206, 68.7531999805212, 165.32985348340642)
-[05Jul2025 01:46:41.484] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: TonTin joined the game
-[05Jul2025 01:46:41.527] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:general'
-[05Jul2025 01:46:41.528] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:item_values'
-[05Jul2025 01:46:41.528] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:commands'
-[05Jul2025 01:46:50.376] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: iurno has made the advancement [Every Cloud Has a Silver Lining]
-[05Jul2025 01:46:52.124] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@18591a04[id=<null>,name=Yair1700pro,properties={},legacy=false] (/100.110.29.36:63503) lost connection: Disconnected
-[05Jul2025 01:46:55.079] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@1650a72d[id=<null>,name=Yair1700pro,properties={},legacy=false] (/100.110.29.36:63507) lost connection: Disconnected
-[05Jul2025 01:46:59.180] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: JeanPincho has made the advancement [Every Cloud Has a Silver Lining]
-[05Jul2025 01:46:59.751] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: iurno was slain by JeanPincho
-[05Jul2025 01:47:01.434] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[05Jul2025 01:47:01.437] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
-[05Jul2025 01:47:05.400] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> aeaaa
-[05Jul2025 01:47:08.675] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> oe caunto te quito
-[05Jul2025 01:47:09.576] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Set own game mode to Survival Mode]
-[05Jul2025 01:47:15.330] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> oe con el puño nomas
-[05Jul2025 01:47:16.602] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: TonTin was slain by iurno
-[05Jul2025 01:47:17.753] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[05Jul2025 01:47:17.753] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
-[05Jul2025 01:47:19.625] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> habla
-[05Jul2025 01:47:29.555] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <iurno> que
-[05Jul2025 01:47:31.252] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: iurno was slain by JeanPincho
-[05Jul2025 01:47:33.334] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[05Jul2025 01:47:33.334] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
-[05Jul2025 01:47:33.420] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> aeaaa
-[05Jul2025 01:47:33.811] [Netty Epoll Server IO #0/ERROR] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channels [more_enchantments:more_enchantments,toolleveling:main,citadel:main_channel,securitycraft:securitycraft,iceandfire:main_channel,silentlib:network,totemoverhaul:totemoverhaul,scalinghealth:network,eterfood:eterfood,uteamcore:network,witherstormmod:main] rejected vanilla connections
-[05Jul2025 01:47:33.816] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting VANILLA connection attempt: This server has mods that require Forge to be installed on the client. Contact your server admin for more details.
-[05Jul2025 01:47:35.111] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> ya oe
-[05Jul2025 01:47:35.387] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <iurno> 4 coras
-[05Jul2025 01:47:37.907] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Set own game mode to Creative Mode]
-[05Jul2025 01:47:45.086] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> ese puño azul q te di
-[05Jul2025 01:47:56.025] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <iurno> yay tina
-[05Jul2025 01:47:58.523] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> te da golpe mas fuerte
-[05Jul2025 01:48:04.094] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <iurno> necesito 3 de exp
-[05Jul2025 01:48:09.127] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Set TonTin's game mode to Creative Mode]
-[05Jul2025 01:48:09.127] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Set iurno's game mode to Creative Mode]
-[05Jul2025 01:48:11.642] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> miren los mods
-[05Jul2025 01:48:16.922] [Netty Epoll Server IO #3/ERROR] [net.minecraftforge.fml.network.NetworkRegistry/NETREGISTRY]: Channels [more_enchantments:more_enchantments,toolleveling:main,citadel:main_channel,securitycraft:securitycraft,iceandfire:main_channel,silentlib:network,totemoverhaul:totemoverhaul,scalinghealth:network,eterfood:eterfood,uteamcore:network,witherstormmod:main] rejected vanilla connections
-[05Jul2025 01:48:16.924] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting VANILLA connection attempt: This server has mods that require Forge to be installed on the client. Contact your server admin for more details.
-[05Jul2025 01:48:19.730] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: JeanPincho has made the advancement [Mother of Dragons]
-[05Jul2025 01:48:28.736] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> miren
-[05Jul2025 01:48:37.887] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Teleported JeanPincho to 0.5, 68.0, 0.5]
-[05Jul2025 01:48:50.414] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Teleported 3 entities to JeanPincho]
-[05Jul2025 01:48:56.751] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <iurno> tmr
-[05Jul2025 01:49:04.208] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> creo
-[05Jul2025 01:49:09.793] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> q siempre se encuentra en las coordenadas
-[05Jul2025 01:49:18.052] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> 0 altura 0
-[05Jul2025 01:49:21.829] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <iurno> iniciemos
-[05Jul2025 01:49:24.101] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <iurno> ara
-[05Jul2025 01:49:25.862] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@45e78f7[id=<null>,name=Yair1700pro,properties={},legacy=false] (/100.110.29.36:64002) lost connection: Disconnected
-[05Jul2025 01:49:27.544] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <iurno> ara ara
-[05Jul2025 01:49:28.049] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> i quieres
-[05Jul2025 01:49:33.875] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> lo quieren ver?
-[05Jul2025 01:49:34.843] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <iurno> ara ara
-[05Jul2025 01:49:39.241] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> habla alejandrito
-[05Jul2025 01:49:41.104] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <iurno> no
-[05Jul2025 01:49:43.680] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <TonTin> YAYA
-[05Jul2025 01:49:47.428] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: JeanPincho has made the advancement [Spooky Scary Skeleton]
-[05Jul2025 01:49:52.345] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> xD
-[05Jul2025 01:49:57.948] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Gave 1 [Command Block] to JeanPincho]
-[05Jul2025 01:50:02.541] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <iurno> xd
-[05Jul2025 01:50:04.130] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: iurno has made the advancement [Nothing Built Can Last Forever]
-[05Jul2025 01:50:04.131] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: JeanPincho has made the advancement [Nothing Built Can Last Forever]
-[05Jul2025 01:50:04.132] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: TonTin has made the advancement [Nothing Built Can Last Forever]
-[05Jul2025 01:50:07.050] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2937ms or 58 ticks behind
-[05Jul2025 01:50:07.170] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: iurno moved too quickly! 9.896185796433521,0.0,1.6485763767575552
-[05Jul2025 01:50:07.173] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: TonTin moved too quickly! 2.2515320080157597,0.0,10.016765292383415
-[05Jul2025 01:50:07.176] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: JeanPincho moved too quickly! -8.468115919839658,0.010966262757946765,5.533412599833946
-[05Jul2025 01:50:08.191] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <iurno> ono
-[05Jul2025 01:50:19.690] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> es co nretraso esa vaina
-[05Jul2025 01:51:02.699] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/3859, l='ServerLevel[world]', x=28.59, y=53.92, z=-21.54]
-[05Jul2025 01:51:02.700] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/3859, l='ServerLevel[world]', x=28.59, y=53.92, z=-21.54]
-[05Jul2025 01:51:02.700] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/3859, l='ServerLevel[world]', x=28.59, y=53.92, z=-21.54]
-[05Jul2025 01:51:02.700] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/3860, l='ServerLevel[world]', x=28.59, y=53.92, z=-21.54]
-[05Jul2025 01:51:02.701] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/3860, l='ServerLevel[world]', x=28.59, y=53.92, z=-21.54]
-[05Jul2025 01:51:02.702] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/3860, l='ServerLevel[world]', x=28.59, y=53.92, z=-21.54]
-[05Jul2025 01:51:07.529] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/3900, l='ServerLevel[world]', x=-20.21, y=44.23, z=-0.13]
-[05Jul2025 01:51:07.529] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/3900, l='ServerLevel[world]', x=-20.21, y=44.23, z=-0.13]
-[05Jul2025 01:51:07.530] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/3900, l='ServerLevel[world]', x=-20.21, y=44.23, z=-0.13]
-[05Jul2025 01:51:07.530] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/3901, l='ServerLevel[world]', x=-20.21, y=44.23, z=-0.13]
-[05Jul2025 01:51:07.530] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/3901, l='ServerLevel[world]', x=-20.21, y=44.23, z=-0.13]
-[05Jul2025 01:51:07.531] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/3901, l='ServerLevel[world]', x=-20.21, y=44.23, z=-0.13]
-[05Jul2025 01:51:12.285] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/3915, l='ServerLevel[world]', x=30.65, y=50.76, z=6.70]
-[05Jul2025 01:51:12.286] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/3915, l='ServerLevel[world]', x=30.65, y=50.76, z=6.70]
-[05Jul2025 01:51:12.287] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/3915, l='ServerLevel[world]', x=30.65, y=50.76, z=6.70]
-[05Jul2025 01:51:12.287] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/3916, l='ServerLevel[world]', x=30.65, y=50.76, z=6.70]
-[05Jul2025 01:51:12.287] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/3916, l='ServerLevel[world]', x=30.65, y=50.76, z=6.70]
-[05Jul2025 01:51:12.288] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/3916, l='ServerLevel[world]', x=30.65, y=50.76, z=6.70]
-[05Jul2025 01:51:16.085] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/3935, l='ServerLevel[world]', x=17.16, y=41.10, z=28.85]
-[05Jul2025 01:51:16.086] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/3935, l='ServerLevel[world]', x=17.16, y=41.10, z=28.85]
-[05Jul2025 01:51:16.086] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/3935, l='ServerLevel[world]', x=17.16, y=41.10, z=28.85]
-[05Jul2025 01:51:16.086] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/3936, l='ServerLevel[world]', x=17.16, y=41.10, z=28.85]
-[05Jul2025 01:51:16.086] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/3936, l='ServerLevel[world]', x=17.16, y=41.10, z=28.85]
-[05Jul2025 01:51:16.087] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/3936, l='ServerLevel[world]', x=17.16, y=41.10, z=28.85]
-[05Jul2025 01:51:16.377] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/3937, l='ServerLevel[world]', x=27.00, y=50.89, z=6.12]
-[05Jul2025 01:51:16.378] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/3937, l='ServerLevel[world]', x=27.00, y=50.89, z=6.12]
-[05Jul2025 01:51:16.378] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/3937, l='ServerLevel[world]', x=27.00, y=50.89, z=6.12]
-[05Jul2025 01:51:16.378] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/3938, l='ServerLevel[world]', x=27.00, y=50.89, z=6.12]
-[05Jul2025 01:51:16.379] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/3938, l='ServerLevel[world]', x=27.00, y=50.89, z=6.12]
-[05Jul2025 01:51:16.379] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/3938, l='ServerLevel[world]', x=27.00, y=50.89, z=6.12]
-[05Jul2025 01:51:17.188] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> te mostrare sus fases richi
-[05Jul2025 01:51:21.738] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/3978, l='ServerLevel[world]', x=-7.54, y=37.00, z=-18.49]
-[05Jul2025 01:51:21.740] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/3978, l='ServerLevel[world]', x=-7.54, y=37.00, z=-18.49]
-[05Jul2025 01:51:21.740] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/3978, l='ServerLevel[world]', x=-7.54, y=37.00, z=-18.49]
-[05Jul2025 01:51:21.741] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/3979, l='ServerLevel[world]', x=-7.54, y=37.00, z=-18.49]
-[05Jul2025 01:51:21.742] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/3979, l='ServerLevel[world]', x=-7.54, y=37.00, z=-18.49]
-[05Jul2025 01:51:21.742] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/3979, l='ServerLevel[world]', x=-7.54, y=37.00, z=-18.49]
-[05Jul2025 01:51:26.979] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4009, l='ServerLevel[world]', x=-27.52, y=57.49, z=4.87]
-[05Jul2025 01:51:26.981] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4009, l='ServerLevel[world]', x=-27.52, y=57.49, z=4.87]
-[05Jul2025 01:51:26.982] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4009, l='ServerLevel[world]', x=-27.52, y=57.49, z=4.87]
-[05Jul2025 01:51:26.982] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4010, l='ServerLevel[world]', x=-27.52, y=57.49, z=4.87]
-[05Jul2025 01:51:26.983] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4010, l='ServerLevel[world]', x=-27.52, y=57.49, z=4.87]
-[05Jul2025 01:51:26.983] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4010, l='ServerLevel[world]', x=-27.52, y=57.49, z=4.87]
-[05Jul2025 01:51:28.130] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4016, l='ServerLevel[world]', x=39.25, y=49.99, z=16.97]
-[05Jul2025 01:51:28.131] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4016, l='ServerLevel[world]', x=39.25, y=49.99, z=16.97]
-[05Jul2025 01:51:28.132] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4016, l='ServerLevel[world]', x=39.25, y=49.99, z=16.97]
-[05Jul2025 01:51:28.132] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Raw Cod'/4017, l='ServerLevel[world]', x=39.25, y=49.99, z=16.97]
-[05Jul2025 01:51:28.133] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Raw Cod'/4017, l='ServerLevel[world]', x=39.25, y=49.99, z=16.97]
-[05Jul2025 01:51:28.133] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Raw Cod'/4017, l='ServerLevel[world]', x=39.25, y=49.99, z=16.97]
-[05Jul2025 01:51:30.883] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: iurno has made the advancement [A Flaming Sword]
-[05Jul2025 01:51:32.382] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4050, l='ServerLevel[world]', x=-30.65, y=54.25, z=6.40]
-[05Jul2025 01:51:32.383] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4050, l='ServerLevel[world]', x=-30.65, y=54.25, z=6.40]
-[05Jul2025 01:51:32.383] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4050, l='ServerLevel[world]', x=-30.65, y=54.25, z=6.40]
-[05Jul2025 01:51:32.383] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4051, l='ServerLevel[world]', x=-30.65, y=54.25, z=6.40]
-[05Jul2025 01:51:32.383] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4051, l='ServerLevel[world]', x=-30.65, y=54.25, z=6.40]
-[05Jul2025 01:51:32.383] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4051, l='ServerLevel[world]', x=-30.65, y=54.25, z=6.40]
-[05Jul2025 01:51:33.393] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: iurno has made the advancement [Draconic Evolution]
-[05Jul2025 01:51:33.528] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4054, l='ServerLevel[world]', x=-26.38, y=41.91, z=30.63]
-[05Jul2025 01:51:33.529] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4054, l='ServerLevel[world]', x=-26.38, y=41.91, z=30.63]
-[05Jul2025 01:51:33.529] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4054, l='ServerLevel[world]', x=-26.38, y=41.91, z=30.63]
-[05Jul2025 01:51:33.529] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Raw Cod'/4055, l='ServerLevel[world]', x=-26.38, y=41.91, z=30.63]
-[05Jul2025 01:51:33.530] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Raw Cod'/4055, l='ServerLevel[world]', x=-26.38, y=41.91, z=30.63]
-[05Jul2025 01:51:33.530] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Raw Cod'/4055, l='ServerLevel[world]', x=-26.38, y=41.91, z=30.63]
-[05Jul2025 01:51:33.530] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Bone Meal'/4056, l='ServerLevel[world]', x=-26.38, y=41.91, z=30.63]
-[05Jul2025 01:51:33.530] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Bone Meal'/4056, l='ServerLevel[world]', x=-26.38, y=41.91, z=30.63]
-[05Jul2025 01:51:33.532] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Bone Meal'/4056, l='ServerLevel[world]', x=-26.38, y=41.91, z=30.63]
-[05Jul2025 01:51:38.277] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4080, l='ServerLevel[world]', x=-25.34, y=55.10, z=3.58]
-[05Jul2025 01:51:38.278] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4080, l='ServerLevel[world]', x=-25.34, y=55.10, z=3.58]
-[05Jul2025 01:51:38.278] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4080, l='ServerLevel[world]', x=-25.34, y=55.10, z=3.58]
-[05Jul2025 01:51:38.279] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4081, l='ServerLevel[world]', x=-25.34, y=55.10, z=3.58]
-[05Jul2025 01:51:38.279] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4081, l='ServerLevel[world]', x=-25.34, y=55.10, z=3.58]
-[05Jul2025 01:51:38.280] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4081, l='ServerLevel[world]', x=-25.34, y=55.10, z=3.58]
-[05Jul2025 01:51:40.080] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4087, l='ServerLevel[world]', x=-27.16, y=55.41, z=2.79]
-[05Jul2025 01:51:40.080] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4087, l='ServerLevel[world]', x=-27.16, y=55.41, z=2.79]
-[05Jul2025 01:51:40.081] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4087, l='ServerLevel[world]', x=-27.16, y=55.41, z=2.79]
-[05Jul2025 01:51:40.082] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4088, l='ServerLevel[world]', x=-27.16, y=55.41, z=2.79]
-[05Jul2025 01:51:40.082] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4088, l='ServerLevel[world]', x=-27.16, y=55.41, z=2.79]
-[05Jul2025 01:51:40.083] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4088, l='ServerLevel[world]', x=-27.16, y=55.41, z=2.79]
-[05Jul2025 01:51:43.260] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4113, l='ServerLevel[world]', x=-28.55, y=43.81, z=26.56]
-[05Jul2025 01:51:43.261] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4113, l='ServerLevel[world]', x=-28.55, y=43.81, z=26.56]
-[05Jul2025 01:51:43.261] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4113, l='ServerLevel[world]', x=-28.55, y=43.81, z=26.56]
-[05Jul2025 01:51:43.262] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4114, l='ServerLevel[world]', x=-28.55, y=43.81, z=26.56]
-[05Jul2025 01:51:43.263] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4114, l='ServerLevel[world]', x=-28.55, y=43.81, z=26.56]
-[05Jul2025 01:51:43.263] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4114, l='ServerLevel[world]', x=-28.55, y=43.81, z=26.56]
-[05Jul2025 01:51:46.681] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4129, l='ServerLevel[world]', x=-29.80, y=39.97, z=29.18]
-[05Jul2025 01:51:46.682] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4129, l='ServerLevel[world]', x=-29.80, y=39.97, z=29.18]
-[05Jul2025 01:51:46.682] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4129, l='ServerLevel[world]', x=-29.80, y=39.97, z=29.18]
-[05Jul2025 01:51:46.683] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Raw Cod'/4130, l='ServerLevel[world]', x=-29.80, y=39.97, z=29.18]
-[05Jul2025 01:51:46.683] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Raw Cod'/4130, l='ServerLevel[world]', x=-29.80, y=39.97, z=29.18]
-[05Jul2025 01:51:46.684] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Raw Cod'/4130, l='ServerLevel[world]', x=-29.80, y=39.97, z=29.18]
-[05Jul2025 01:52:13.072] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: TonTin has made the advancement [Draconic Evolution]
-[05Jul2025 01:52:13.128] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2210ms or 44 ticks behind
-[05Jul2025 01:52:15.104] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4302, l='ServerLevel[world]', x=-38.45, y=40.58, z=21.37]
-[05Jul2025 01:52:15.106] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4302, l='ServerLevel[world]', x=-38.45, y=40.58, z=21.37]
-[05Jul2025 01:52:15.107] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4302, l='ServerLevel[world]', x=-38.45, y=40.58, z=21.37]
-[05Jul2025 01:52:15.107] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4303, l='ServerLevel[world]', x=-38.45, y=40.58, z=21.37]
-[05Jul2025 01:52:15.107] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4303, l='ServerLevel[world]', x=-38.45, y=40.58, z=21.37]
-[05Jul2025 01:52:15.107] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4303, l='ServerLevel[world]', x=-38.45, y=40.58, z=21.37]
-[05Jul2025 01:52:15.265] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> miralo
-[05Jul2025 01:52:32.580] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4390, l='ServerLevel[world]', x=-46.09, y=46.85, z=13.97]
-[05Jul2025 01:52:32.581] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4390, l='ServerLevel[world]', x=-46.09, y=46.85, z=13.97]
-[05Jul2025 01:52:32.581] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4390, l='ServerLevel[world]', x=-46.09, y=46.85, z=13.97]
-[05Jul2025 01:52:32.582] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4391, l='ServerLevel[world]', x=-46.09, y=46.85, z=13.97]
-[05Jul2025 01:52:32.582] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4391, l='ServerLevel[world]', x=-46.09, y=46.85, z=13.97]
-[05Jul2025 01:52:32.582] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4391, l='ServerLevel[world]', x=-46.09, y=46.85, z=13.97]
-[05Jul2025 01:52:36.029] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4415, l='ServerLevel[world]', x=-44.23, y=44.45, z=14.92]
-[05Jul2025 01:52:36.029] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4415, l='ServerLevel[world]', x=-44.23, y=44.45, z=14.92]
-[05Jul2025 01:52:36.030] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4415, l='ServerLevel[world]', x=-44.23, y=44.45, z=14.92]
-[05Jul2025 01:52:36.030] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4416, l='ServerLevel[world]', x=-44.23, y=44.45, z=14.92]
-[05Jul2025 01:52:36.030] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4416, l='ServerLevel[world]', x=-44.23, y=44.45, z=14.92]
-[05Jul2025 01:52:36.031] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4416, l='ServerLevel[world]', x=-44.23, y=44.45, z=14.92]
-[05Jul2025 01:52:43.935] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4449, l='ServerLevel[world]', x=-47.69, y=45.28, z=9.43]
-[05Jul2025 01:52:43.936] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4449, l='ServerLevel[world]', x=-47.69, y=45.28, z=9.43]
-[05Jul2025 01:52:43.936] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4449, l='ServerLevel[world]', x=-47.69, y=45.28, z=9.43]
-[05Jul2025 01:52:43.936] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4450, l='ServerLevel[world]', x=-47.69, y=45.28, z=9.43]
-[05Jul2025 01:52:43.936] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4450, l='ServerLevel[world]', x=-47.69, y=45.28, z=9.43]
-[05Jul2025 01:52:43.936] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4450, l='ServerLevel[world]', x=-47.69, y=45.28, z=9.43]
-[05Jul2025 01:52:55.381] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4504, l='ServerLevel[world]', x=-45.35, y=49.83, z=8.54]
-[05Jul2025 01:52:55.382] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4504, l='ServerLevel[world]', x=-45.35, y=49.83, z=8.54]
-[05Jul2025 01:52:55.383] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4504, l='ServerLevel[world]', x=-45.35, y=49.83, z=8.54]
-[05Jul2025 01:52:55.383] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4505, l='ServerLevel[world]', x=-45.35, y=49.83, z=8.54]
-[05Jul2025 01:52:55.384] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4505, l='ServerLevel[world]', x=-45.35, y=49.83, z=8.54]
-[05Jul2025 01:52:55.385] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4505, l='ServerLevel[world]', x=-45.35, y=49.83, z=8.54]
-[05Jul2025 01:53:03.132] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4635, l='ServerLevel[world]', x=-20.56, y=58.92, z=52.59]
-[05Jul2025 01:53:03.132] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4635, l='ServerLevel[world]', x=-20.56, y=58.92, z=52.59]
-[05Jul2025 01:53:03.133] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4635, l='ServerLevel[world]', x=-20.56, y=58.92, z=52.59]
-[05Jul2025 01:53:03.133] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Raw Cod'/4636, l='ServerLevel[world]', x=-20.56, y=58.92, z=52.59]
-[05Jul2025 01:53:03.133] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Raw Cod'/4636, l='ServerLevel[world]', x=-20.56, y=58.92, z=52.59]
-[05Jul2025 01:53:03.133] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Raw Cod'/4636, l='ServerLevel[world]', x=-20.56, y=58.92, z=52.59]
-[05Jul2025 01:53:14.380] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4702, l='ServerLevel[world]', x=-21.57, y=61.83, z=45.36]
-[05Jul2025 01:53:14.381] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4702, l='ServerLevel[world]', x=-21.57, y=61.83, z=45.36]
-[05Jul2025 01:53:14.381] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4702, l='ServerLevel[world]', x=-21.57, y=61.83, z=45.36]
-[05Jul2025 01:53:14.382] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Raw Cod'/4703, l='ServerLevel[world]', x=-21.57, y=61.83, z=45.36]
-[05Jul2025 01:53:14.382] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Raw Cod'/4703, l='ServerLevel[world]', x=-21.57, y=61.83, z=45.36]
-[05Jul2025 01:53:14.383] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Raw Cod'/4703, l='ServerLevel[world]', x=-21.57, y=61.83, z=45.36]
-[05Jul2025 01:53:16.581] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4713, l='ServerLevel[world]', x=-16.69, y=57.53, z=55.80]
-[05Jul2025 01:53:16.581] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4713, l='ServerLevel[world]', x=-16.69, y=57.53, z=55.80]
-[05Jul2025 01:53:16.582] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4713, l='ServerLevel[world]', x=-16.69, y=57.53, z=55.80]
-[05Jul2025 01:53:16.582] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4714, l='ServerLevel[world]', x=-16.69, y=57.53, z=55.80]
-[05Jul2025 01:53:16.583] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4714, l='ServerLevel[world]', x=-16.69, y=57.53, z=55.80]
-[05Jul2025 01:53:16.584] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4714, l='ServerLevel[world]', x=-16.69, y=57.53, z=55.80]
-[05Jul2025 01:53:20.733] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4743, l='ServerLevel[world]', x=-17.58, y=55.68, z=55.49]
-[05Jul2025 01:53:20.733] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4743, l='ServerLevel[world]', x=-17.58, y=55.68, z=55.49]
-[05Jul2025 01:53:20.734] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4743, l='ServerLevel[world]', x=-17.58, y=55.68, z=55.49]
-[05Jul2025 01:53:20.734] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4744, l='ServerLevel[world]', x=-17.58, y=55.68, z=55.49]
-[05Jul2025 01:53:20.734] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4744, l='ServerLevel[world]', x=-17.58, y=55.68, z=55.49]
-[05Jul2025 01:53:20.734] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4744, l='ServerLevel[world]', x=-17.58, y=55.68, z=55.49]
-[05Jul2025 01:53:40.284] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4838, l='ServerLevel[world]', x=-17.98, y=41.17, z=17.47]
-[05Jul2025 01:53:40.284] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4838, l='ServerLevel[world]', x=-17.98, y=41.17, z=17.47]
-[05Jul2025 01:53:40.285] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4838, l='ServerLevel[world]', x=-17.98, y=41.17, z=17.47]
-[05Jul2025 01:53:40.285] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4839, l='ServerLevel[world]', x=-17.98, y=41.17, z=17.47]
-[05Jul2025 01:53:40.285] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4839, l='ServerLevel[world]', x=-17.98, y=41.17, z=17.47]
-[05Jul2025 01:53:40.285] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4839, l='ServerLevel[world]', x=-17.98, y=41.17, z=17.47]
-[05Jul2025 01:53:40.434] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4844, l='ServerLevel[world]', x=-18.14, y=44.97, z=16.85]
-[05Jul2025 01:53:40.434] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4844, l='ServerLevel[world]', x=-18.14, y=44.97, z=16.85]
-[05Jul2025 01:53:40.434] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4844, l='ServerLevel[world]', x=-18.14, y=44.97, z=16.85]
-[05Jul2025 01:53:40.435] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4845, l='ServerLevel[world]', x=-18.14, y=44.97, z=16.85]
-[05Jul2025 01:53:40.435] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4845, l='ServerLevel[world]', x=-18.14, y=44.97, z=16.85]
-[05Jul2025 01:53:40.435] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4845, l='ServerLevel[world]', x=-18.14, y=44.97, z=16.85]
-[05Jul2025 01:53:40.435] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Cursed Heart'/4846, l='ServerLevel[world]', x=-18.14, y=44.97, z=16.85]
-[05Jul2025 01:53:40.435] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Cursed Heart'/4846, l='ServerLevel[world]', x=-18.14, y=44.97, z=16.85]
-[05Jul2025 01:53:40.435] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Cursed Heart'/4846, l='ServerLevel[world]', x=-18.14, y=44.97, z=16.85]
-[05Jul2025 01:53:42.881] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4870, l='ServerLevel[world]', x=-16.21, y=51.79, z=18.59]
-[05Jul2025 01:53:42.882] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4870, l='ServerLevel[world]', x=-16.21, y=51.79, z=18.59]
-[05Jul2025 01:53:42.883] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4870, l='ServerLevel[world]', x=-16.21, y=51.79, z=18.59]
-[05Jul2025 01:53:42.883] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4871, l='ServerLevel[world]', x=-16.21, y=51.79, z=18.59]
-[05Jul2025 01:53:42.883] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4871, l='ServerLevel[world]', x=-16.21, y=51.79, z=18.59]
-[05Jul2025 01:53:42.884] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4871, l='ServerLevel[world]', x=-16.21, y=51.79, z=18.59]
-[05Jul2025 01:53:44.430] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4887, l='ServerLevel[world]', x=-16.42, y=55.05, z=20.89]
-[05Jul2025 01:53:44.431] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4887, l='ServerLevel[world]', x=-16.42, y=55.05, z=20.89]
-[05Jul2025 01:53:44.431] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4887, l='ServerLevel[world]', x=-16.42, y=55.05, z=20.89]
-[05Jul2025 01:53:44.432] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4888, l='ServerLevel[world]', x=-16.42, y=55.05, z=20.89]
-[05Jul2025 01:53:44.432] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4888, l='ServerLevel[world]', x=-16.42, y=55.05, z=20.89]
-[05Jul2025 01:53:44.432] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4888, l='ServerLevel[world]', x=-16.42, y=55.05, z=20.89]
-[05Jul2025 01:53:45.060] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <iurno> matalo ya pa jugar pe
-[05Jul2025 01:53:51.833] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4942, l='ServerLevel[world]', x=-27.26, y=56.09, z=-5.36]
-[05Jul2025 01:53:51.834] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4942, l='ServerLevel[world]', x=-27.26, y=56.09, z=-5.36]
-[05Jul2025 01:53:51.834] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4942, l='ServerLevel[world]', x=-27.26, y=56.09, z=-5.36]
-[05Jul2025 01:53:51.835] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4943, l='ServerLevel[world]', x=-27.26, y=56.09, z=-5.36]
-[05Jul2025 01:53:51.835] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4943, l='ServerLevel[world]', x=-27.26, y=56.09, z=-5.36]
-[05Jul2025 01:53:51.836] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4943, l='ServerLevel[world]', x=-27.26, y=56.09, z=-5.36]
-[05Jul2025 01:53:51.836] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Bone Meal'/4944, l='ServerLevel[world]', x=-27.26, y=56.09, z=-5.36]
-[05Jul2025 01:53:51.837] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Bone Meal'/4944, l='ServerLevel[world]', x=-27.26, y=56.09, z=-5.36]
-[05Jul2025 01:53:51.837] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Bone Meal'/4944, l='ServerLevel[world]', x=-27.26, y=56.09, z=-5.36]
-[05Jul2025 01:53:54.330] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4951, l='ServerLevel[world]', x=-28.51, y=56.93, z=-7.45]
-[05Jul2025 01:53:54.331] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4951, l='ServerLevel[world]', x=-28.51, y=56.93, z=-7.45]
-[05Jul2025 01:53:54.331] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4951, l='ServerLevel[world]', x=-28.51, y=56.93, z=-7.45]
-[05Jul2025 01:53:54.331] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4952, l='ServerLevel[world]', x=-28.51, y=56.93, z=-7.45]
-[05Jul2025 01:53:54.332] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4952, l='ServerLevel[world]', x=-28.51, y=56.93, z=-7.45]
-[05Jul2025 01:53:54.332] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4952, l='ServerLevel[world]', x=-28.51, y=56.93, z=-7.45]
-[05Jul2025 01:53:55.878] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4957, l='ServerLevel[world]', x=-29.03, y=68.00, z=-6.39]
-[05Jul2025 01:53:55.879] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4957, l='ServerLevel[world]', x=-29.03, y=68.00, z=-6.39]
-[05Jul2025 01:53:55.879] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4957, l='ServerLevel[world]', x=-29.03, y=68.00, z=-6.39]
-[05Jul2025 01:53:55.879] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4958, l='ServerLevel[world]', x=-29.03, y=68.00, z=-6.39]
-[05Jul2025 01:53:55.879] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4958, l='ServerLevel[world]', x=-29.03, y=68.00, z=-6.39]
-[05Jul2025 01:53:55.879] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4958, l='ServerLevel[world]', x=-29.03, y=68.00, z=-6.39]
-[05Jul2025 01:53:58.083] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4963, l='ServerLevel[world]', x=-28.52, y=63.92, z=-3.90]
-[05Jul2025 01:53:58.084] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4963, l='ServerLevel[world]', x=-28.52, y=63.92, z=-3.90]
-[05Jul2025 01:53:58.084] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4963, l='ServerLevel[world]', x=-28.52, y=63.92, z=-3.90]
-[05Jul2025 01:53:58.084] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4964, l='ServerLevel[world]', x=-28.52, y=63.92, z=-3.90]
-[05Jul2025 01:53:58.084] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4964, l='ServerLevel[world]', x=-28.52, y=63.92, z=-3.90]
-[05Jul2025 01:53:58.084] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4964, l='ServerLevel[world]', x=-28.52, y=63.92, z=-3.90]
-[05Jul2025 01:54:02.678] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4987, l='ServerLevel[world]', x=-27.89, y=53.81, z=-7.82]
-[05Jul2025 01:54:02.679] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4987, l='ServerLevel[world]', x=-27.89, y=53.81, z=-7.82]
-[05Jul2025 01:54:02.679] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/4987, l='ServerLevel[world]', x=-27.89, y=53.81, z=-7.82]
-[05Jul2025 01:54:02.679] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4988, l='ServerLevel[world]', x=-27.89, y=53.81, z=-7.82]
-[05Jul2025 01:54:02.679] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4988, l='ServerLevel[world]', x=-27.89, y=53.81, z=-7.82]
-[05Jul2025 01:54:02.679] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/4988, l='ServerLevel[world]', x=-27.89, y=53.81, z=-7.82]
-[05Jul2025 01:54:09.882] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/5027, l='ServerLevel[world]', x=-31.41, y=68.06, z=-26.23]
-[05Jul2025 01:54:09.883] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/5027, l='ServerLevel[world]', x=-31.41, y=68.06, z=-26.23]
-[05Jul2025 01:54:09.883] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/5027, l='ServerLevel[world]', x=-31.41, y=68.06, z=-26.23]
-[05Jul2025 01:54:09.884] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/5028, l='ServerLevel[world]', x=-31.41, y=68.06, z=-26.23]
-[05Jul2025 01:54:09.884] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/5028, l='ServerLevel[world]', x=-31.41, y=68.06, z=-26.23]
-[05Jul2025 01:54:09.884] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/5028, l='ServerLevel[world]', x=-31.41, y=68.06, z=-26.23]
-[05Jul2025 01:54:11.781] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/5035, l='ServerLevel[world]', x=-34.87, y=69.68, z=-22.95]
-[05Jul2025 01:54:11.781] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/5035, l='ServerLevel[world]', x=-34.87, y=69.68, z=-22.95]
-[05Jul2025 01:54:11.781] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/5035, l='ServerLevel[world]', x=-34.87, y=69.68, z=-22.95]
-[05Jul2025 01:54:11.782] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/5036, l='ServerLevel[world]', x=-34.87, y=69.68, z=-22.95]
-[05Jul2025 01:54:11.782] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/5036, l='ServerLevel[world]', x=-34.87, y=69.68, z=-22.95]
-[05Jul2025 01:54:11.783] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/5036, l='ServerLevel[world]', x=-34.87, y=69.68, z=-22.95]
-[05Jul2025 01:54:13.683] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/5045, l='ServerLevel[world]', x=-33.48, y=35.90, z=-16.48]
-[05Jul2025 01:54:13.683] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/5045, l='ServerLevel[world]', x=-33.48, y=35.90, z=-16.48]
-[05Jul2025 01:54:13.683] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/5045, l='ServerLevel[world]', x=-33.48, y=35.90, z=-16.48]
-[05Jul2025 01:54:13.684] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/5046, l='ServerLevel[world]', x=-33.48, y=35.90, z=-16.48]
-[05Jul2025 01:54:13.684] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/5046, l='ServerLevel[world]', x=-33.48, y=35.90, z=-16.48]
-[05Jul2025 01:54:13.684] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/5046, l='ServerLevel[world]', x=-33.48, y=35.90, z=-16.48]
-[05Jul2025 01:54:15.833] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/5067, l='ServerLevel[world]', x=-34.61, y=56.97, z=-24.04]
-[05Jul2025 01:54:15.833] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/5067, l='ServerLevel[world]', x=-34.61, y=56.97, z=-24.04]
-[05Jul2025 01:54:15.833] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/5067, l='ServerLevel[world]', x=-34.61, y=56.97, z=-24.04]
-[05Jul2025 01:54:15.835] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/5068, l='ServerLevel[world]', x=-34.61, y=56.97, z=-24.04]
-[05Jul2025 01:54:15.835] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/5068, l='ServerLevel[world]', x=-34.61, y=56.97, z=-24.04]
-[05Jul2025 01:54:15.836] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/5068, l='ServerLevel[world]', x=-34.61, y=56.97, z=-24.04]
-[05Jul2025 01:54:18.249] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: iurno has made the advancement [Clash of the Titans]
-[05Jul2025 01:54:23.031] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Raw Cod'/5108, l='ServerLevel[world]', x=-4.24, y=52.68, z=-23.42]
-[05Jul2025 01:54:23.032] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Raw Cod'/5108, l='ServerLevel[world]', x=-4.24, y=52.68, z=-23.42]
-[05Jul2025 01:54:23.032] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Raw Cod'/5108, l='ServerLevel[world]', x=-4.24, y=52.68, z=-23.42]
-[05Jul2025 01:54:24.052] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <iurno> oeoeoeoe
-[05Jul2025 01:54:24.278] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/5112, l='ServerLevel[world]', x=4.51, y=44.03, z=-18.49]
-[05Jul2025 01:54:24.279] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/5112, l='ServerLevel[world]', x=4.51, y=44.03, z=-18.49]
-[05Jul2025 01:54:24.279] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/5112, l='ServerLevel[world]', x=4.51, y=44.03, z=-18.49]
-[05Jul2025 01:54:28.491] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> xDDD
-[05Jul2025 01:54:28.842] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <iurno> funciono
-[05Jul2025 01:54:30.190] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <iurno> jajajajaj
-[05Jul2025 01:54:32.597] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <iurno> mod de mrd
-[05Jul2025 01:54:32.830] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> oeeee
-[05Jul2025 01:54:34.032] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <iurno> jajajajaja
-[05Jul2025 01:54:37.382] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> oeee
-[05Jul2025 01:54:40.282] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <iurno> pense que no funcionaba
-[05Jul2025 01:54:40.976] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> q descubrimiento
-[05Jul2025 01:54:42.486] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> ajajaja
-[05Jul2025 01:55:00.032] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: TonTin has made the advancement [Clash of the Titans]
-[05Jul2025 01:55:14.991] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> lo vuelve piedra mira oe alejo
-[05Jul2025 01:55:36.884] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@4a501fb[id=<null>,name=Yair1700pro,properties={},legacy=false] (/100.110.29.36:53937) lost connection: Disconnected
-[05Jul2025 01:55:51.579] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: JeanPincho has made the advancement [Stone Age]
-[05Jul2025 01:56:29.208] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Summoned new Wither Storm]
-[05Jul2025 01:56:29.209] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2096ms or 41 ticks behind
-[05Jul2025 01:56:33.384] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/5453, l='ServerLevel[world]', x=-74.37, y=49.59, z=-0.68]
-[05Jul2025 01:56:33.385] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/5453, l='ServerLevel[world]', x=-74.37, y=49.59, z=-0.68]
-[05Jul2025 01:56:33.385] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/5453, l='ServerLevel[world]', x=-74.37, y=49.59, z=-0.68]
-[05Jul2025 01:56:33.386] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Raw Cod'/5454, l='ServerLevel[world]', x=-74.37, y=49.59, z=-0.68]
-[05Jul2025 01:56:33.386] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Raw Cod'/5454, l='ServerLevel[world]', x=-74.37, y=49.59, z=-0.68]
-[05Jul2025 01:56:33.387] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Raw Cod'/5454, l='ServerLevel[world]', x=-74.37, y=49.59, z=-0.68]
-[05Jul2025 01:56:40.427] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/5504, l='ServerLevel[world]', x=-116.74, y=58.09, z=-26.96]
-[05Jul2025 01:56:40.428] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/5504, l='ServerLevel[world]', x=-116.74, y=58.09, z=-26.96]
-[05Jul2025 01:56:40.428] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/5504, l='ServerLevel[world]', x=-116.74, y=58.09, z=-26.96]
-[05Jul2025 01:56:40.429] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/5505, l='ServerLevel[world]', x=-116.74, y=58.09, z=-26.96]
-[05Jul2025 01:56:40.429] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/5505, l='ServerLevel[world]', x=-116.74, y=58.09, z=-26.96]
-[05Jul2025 01:56:40.429] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Tropical Fish'/5505, l='ServerLevel[world]', x=-116.74, y=58.09, z=-26.96]
-[05Jul2025 01:56:41.695] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/5521, l='ServerLevel[world]', x=-72.56, y=48.31, z=0.36]
-[05Jul2025 01:56:41.696] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/5521, l='ServerLevel[world]', x=-72.56, y=48.31, z=0.36]
-[05Jul2025 01:56:41.696] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Wither Rose'/5521, l='ServerLevel[world]', x=-72.56, y=48.31, z=0.36]
-[05Jul2025 01:56:41.697] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Raw Cod'/5522, l='ServerLevel[world]', x=-72.56, y=48.31, z=0.36]
-[05Jul2025 01:56:41.698] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Raw Cod'/5522, l='ServerLevel[world]', x=-72.56, y=48.31, z=0.36]
-[05Jul2025 01:56:41.698] [Server thread/WARN] [net.minecraft.world.TrackedEntity/]: Fetching packet for removed entity ItemEntity['Raw Cod'/5522, l='ServerLevel[world]', x=-72.56, y=48.31, z=0.36]
-[05Jul2025 01:57:09.680] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@3bc1f9ae
-[05Jul2025 01:57:09.686] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: hypr_p4t[/100.106.180.96:54176] logged in with entity id 5627 at (-181.5, 66.0, 170.5)
-[05Jul2025 01:57:09.691] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: hypr_p4t joined the game
-[05Jul2025 01:57:09.724] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:general'
-[05Jul2025 01:57:09.725] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:item_values'
-[05Jul2025 01:57:09.726] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:commands'
-[05Jul2025 01:57:09.811] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: hypr_p4t has made the advancement [Ice and Fire]
-[05Jul2025 01:57:23.645] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2332ms or 46 ticks behind
-[05Jul2025 01:57:32.534] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: JeanPincho lost connection: Timed out
-[05Jul2025 01:57:32.534] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: JeanPincho left the game
-[05Jul2025 01:57:44.533] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@49f2683[id=<null>,name=JeanPincho,properties={},legacy=false] (/100.90.254.118:61986) lost connection: Disconnected
-[05Jul2025 01:57:45.249] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: TonTin has made the advancement [Mother of Dragons]
-[05Jul2025 01:57:48.550] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@6aacf45c
-[05Jul2025 01:57:48.563] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: JeanPincho[/100.90.254.118:61989] logged in with entity id 5877 at (-64.00901833319647, 64.0, -65.00416019387666)
-[05Jul2025 01:57:48.578] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: JeanPincho joined the game
-[05Jul2025 01:57:48.630] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:general'
-[05Jul2025 01:57:48.631] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:item_values'
-[05Jul2025 01:57:48.632] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:commands'
-[05Jul2025 01:57:57.635] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> oe wbon
-[05Jul2025 01:58:00.146] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> oeee
-[05Jul2025 01:58:09.339] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> no lo vuelvan piedra a esta vaina wbon
-[05Jul2025 01:58:09.786] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: iurno has made the advancement [Mother of Dragons]
-[05Jul2025 01:58:11.134] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: JeanPincho lost connection: Disconnected
-[05Jul2025 01:58:11.135] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: JeanPincho left the game
-[05Jul2025 01:58:21.999] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@1f87728d
-[05Jul2025 01:58:22.007] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: JeanPincho[/100.90.254.118:62009] logged in with entity id 6106 at (-62.12820655928614, 64.0, -68.79861034019547)
-[05Jul2025 01:58:22.016] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: JeanPincho joined the game
-[05Jul2025 01:58:22.086] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:general'
-[05Jul2025 01:58:22.087] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:item_values'
-[05Jul2025 01:58:22.088] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:commands'
-[05Jul2025 01:58:32.035] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <iurno> oe metete a la llamada
-[05Jul2025 01:58:38.762] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <iurno> del discord
-[05Jul2025 01:58:40.432] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <iurno> causa
-[05Jul2025 01:58:50.458] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Set iurno's game mode to Survival Mode]
-[05Jul2025 01:58:51.687] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@2a319e04[id=<null>,name=Yair1700pro,properties={},legacy=false] (/100.110.29.36:64211) lost connection: Disconnected
-[05Jul2025 01:58:56.284] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <iurno> quitanos todow
-[05Jul2025 01:58:57.140] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: JeanPincho lost connection: Disconnected
-[05Jul2025 01:58:57.141] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: JeanPincho left the game
-[05Jul2025 01:59:00.410] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <iurno> y llevanos a tierra
-[05Jul2025 02:00:03.980] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: hypr_p4t was turned to stone by hypr_p4t
-[05Jul2025 02:00:10.806] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
-[05Jul2025 02:00:10.806] [Server thread/INFO] [Scaling Health/]: Player gained 0.00 difficulty
-[05Jul2025 02:00:15.601] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: iurno has made the advancement [Stone Age]
-[05Jul2025 02:00:27.894] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <hypr_p4t> hijode puta
-[05Jul2025 02:00:55.682] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@78a70678[id=<null>,name=JeanPincho,properties={},legacy=false] (/100.90.254.118:62075) lost connection: Disconnected
-[05Jul2025 02:00:59.645] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@6a2f099a
-[05Jul2025 02:00:59.656] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: JeanPincho[/100.90.254.118:62086] logged in with entity id 6804 at (-62.12820655928614, 64.0, -68.79861034019547)
-[05Jul2025 02:00:59.666] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: JeanPincho joined the game
-[05Jul2025 02:00:59.721] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:general'
-[05Jul2025 02:00:59.721] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:item_values'
-[05Jul2025 02:00:59.722] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:commands'
-[05Jul2025 02:01:09.882] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@1c0ab5de[id=<null>,name=Yair1700pro,properties={},legacy=false] (/100.110.29.36:64239) lost connection: Disconnected
-[05Jul2025 02:01:09.961] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <iurno> metete al discord oe
-[05Jul2025 02:01:23.256] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> no hagas eso
-[05Jul2025 02:01:27.984] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> lo bugueas
-[05Jul2025 02:01:29.789] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: JeanPincho lost connection: Timed out
-[05Jul2025 02:01:29.790] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: JeanPincho left the game
-[05Jul2025 02:02:05.135] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@1383c47[id=<null>,name=JeanPincho,properties={},legacy=false] (/100.90.254.118:62111) lost connection: Disconnected
-[05Jul2025 02:02:11.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[05Jul2025 02:02:11.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[05Jul2025 02:02:11.281] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: TonTin lost connection: Server closed
-[05Jul2025 02:02:11.282] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: TonTin left the game
-[05Jul2025 02:02:11.284] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: hypr_p4t lost connection: Server closed
-[05Jul2025 02:02:11.285] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: hypr_p4t left the game
-[05Jul2025 02:02:11.287] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[05Jul2025 02:02:11.287] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[05Jul2025 02:02:14.324] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[05Jul2025 02:02:14.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[05Jul2025 02:02:14.326] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[05Jul2025 02:02:14.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[05Jul2025 02:02:14.329] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[05Jul2025 02:02:14.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/witherstormmod:bowels
-[05Jul2025 02:02:14.541] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (bowels): All chunks are saved
-[05Jul2025 02:02:14.565] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[05Jul2025 02:02:14.583] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[05Jul2025 02:02:14.585] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[05Jul2025 02:02:14.587] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (bowels): All chunks are saved
+[05Jul2025 02:03:15.191] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[05Jul2025 02:03:15.477] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: OUTDATED Current: v1.10 Target: v1.10.0.1
+[05Jul2025 02:03:16.268] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[05Jul2025 02:03:17.514] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [deathhistory, player] and [deathhistory, player_uuid] with inputs: [dd12be42-52a9-4a91-a8a1-11c01849e498]
+[05Jul2025 02:03:17.567] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [sh_difficulty, add, server] and [sh_difficulty, add, targets] with inputs: [server]
+[05Jul2025 02:03:17.571] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [sh_difficulty, get, server] and [sh_difficulty, get, targets] with inputs: [server]
+[05Jul2025 02:03:17.573] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [sh_difficulty, set, server] and [sh_difficulty, set, targets] with inputs: [server]
+[05Jul2025 02:03:17.592] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[05Jul2025 02:03:17.597] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[05Jul2025 02:03:17.606] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[05Jul2025 02:03:17.607] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[05Jul2025 02:03:17.611] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[05Jul2025 02:03:17.613] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [waypoint, create, name, dimension, location, color, announce] and [waypoint, create, name, dimension, location, color, player] with inputs: [true, false]
+[05Jul2025 02:03:17.619] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [waypoint, delete, name, announce] and [waypoint, delete, name, player] with inputs: [true, false]
+[05Jul2025 02:03:17.621] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [witherstormmod, bowels, new] and [witherstormmod, bowels, entity] with inputs: [new]
+[05Jul2025 02:03:17.626] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [witherstormmod, cluster, create, pos] and [witherstormmod, cluster, create, start] with inputs: [^1 ^ ^-5, 0 0 0, ~ ~ ~, ^ ^ ^, ~0.5 ~1 ~-5]
+[05Jul2025 02:03:17.631] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [witherstormmod, cluster, create, start] and [witherstormmod, cluster, create, pos] with inputs: [^1 ^ ^-5, 0 0 0, ~ ~ ~, ^ ^ ^, ~0.5 ~1 ~-5]
+[05Jul2025 02:03:17.649] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, witherstormmod-1.16.5-1.0.3.jar, useful_backpacks-1.16.5-1.12.1.103.jar, eternalfood-2.0.0-forge-1.16.5.jar, toolleveling-forge-1.16.5-1.4.4.jar, u_team_core-1.16.5-3.2.1.229.jar, silent-lib-1.16.5-4.10.0.jar, 1.16.5-enchantedgoldenapplecrafting-1.0.jar, jei-1.16.5-7.8.0.1013.jar, totemoverhaul-MC1.16.5-22.06.24re2.jar, forge-1.16.5-36.2.42-universal.jar, ScalingHealth-1.16.5-4.1.5+11.jar, journeymap-1.16.5-5.8.6.jar, corpse-1.16.5-1.0.6.jar, Placebo-1.16.5-4.7.0.jar, MoreEnchantments_MC_1.16.4_Vers.1.4.1.jar, citadel-1.8.1-1.16.5.jar, iceandfire-2.1.12-1.16.5-patch-1.jar, [1.16.5] SecurityCraft v1.10.jar
+[05Jul2025 02:03:21.312] [Worker-Main-2/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 8 recipes
+[05Jul2025 02:03:22.727] [Worker-Main-2/INFO] [placebo/]: Registered 0 additional loot tables.
+[05Jul2025 02:03:23.161] [Worker-Main-2/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1579 advancements
+[05Jul2025 02:03:23.166] [Worker-Main-2/INFO] [placebo/]: Registered 0 additional recipes.
+[05Jul2025 02:03:28.831] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[05Jul2025 02:03:28.834] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[05Jul2025 02:03:28.836] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[05Jul2025 02:03:28.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[05Jul2025 02:03:29.198] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[05Jul2025 02:03:29.238] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using epoll channel type
+[05Jul2025 02:03:29.557] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05Jul2025 02:03:29.557] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[05Jul2025 02:03:29.558] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05Jul2025 02:03:29.559] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[05Jul2025 02:03:29.659] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[05Jul2025 02:03:29.681] [Thread-0/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[05Jul2025 02:03:29.746] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[05Jul2025 02:03:30.810] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[05Jul2025 02:03:30.810] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[05Jul2025 02:03:30.817] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[05Jul2025 02:03:30.814] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[05Jul2025 02:03:30.825] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[05Jul2025 02:03:30.854] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[05Jul2025 02:03:30.860] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[05Jul2025 02:03:31.021] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[05Jul2025 02:03:31.883] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[05Jul2025 02:03:32.042] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[05Jul2025 02:03:32.748] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[05Jul2025 02:03:32.852] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[05Jul2025 02:03:33.338] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[05Jul2025 02:03:33.415] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[05Jul2025 02:03:33.770] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[05Jul2025 02:03:33.782] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[05Jul2025 02:03:33.926] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[05Jul2025 02:03:33.989] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[05Jul2025 02:03:34.353] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[05Jul2025 02:03:34.422] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[05Jul2025 02:03:34.580] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[05Jul2025 02:03:35.002] [Netty Epoll Server IO #2/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[05Jul2025 02:03:35.038] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[05Jul2025 02:03:35.561] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[05Jul2025 02:03:37.208] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[05Jul2025 02:03:37.211] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[05Jul2025 02:03:37.212] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[05Jul2025 02:03:37.213] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[05Jul2025 02:03:37.215] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[05Jul2025 02:03:37.216] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[05Jul2025 02:03:37.218] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[05Jul2025 02:03:37.449] [Netty Epoll Server IO #1/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[05Jul2025 02:03:37.549] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[05Jul2025 02:03:37.937] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 68%
+[05Jul2025 02:03:39.866] [Netty Epoll Server IO #3/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[05Jul2025 02:03:39.992] [Netty Epoll Server IO #0/INFO] [net.minecraftforge.fml.server.ServerLifecycleHooks/SERVERHOOKS]: Disconnecting Player (server is still starting): Server is still starting! Please wait before reconnecting.
+[05Jul2025 02:03:41.204] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 70%
+[05Jul2025 02:03:41.209] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 70%
+[05Jul2025 02:03:41.654] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 70%
+[05Jul2025 02:03:41.657] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 70%
+[05Jul2025 02:03:41.657] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 70%
+[05Jul2025 02:03:41.659] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 70%
+[05Jul2025 02:03:41.660] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 70%
+[05Jul2025 02:03:41.957] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 99%
+[05Jul2025 02:03:42.450] [Worker-Main-2/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 99%
+[05Jul2025 02:03:42.975] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 99%
+[05Jul2025 02:03:43.249] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 9321 ms
+[05Jul2025 02:03:43.250] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (13.642s)! For help, type "help"
+[05Jul2025 02:03:43.287] [Server thread/INFO] [betathunder.enchantedgoldenapplecrafting.EnchantedGoldenAppleCrafting/]: HELLO from server starting
+[05Jul2025 02:03:43.352] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {SPAWN_DRAGON_SKELETON_I_CF=true, HYDRA_CAVE_CF=true, SPAWN_SEA_SERPENT_CF=true, SPAWN_STYMPHALIAN_BIRD_CF=true, SPAWN_WANDERING_CYCLOPS_CF=true, PIXIE_VILLAGE_CF=false, SPAWN_DEATH_WORM_CF=true, FIRE_DRAGON_CAVE_CF=true, SIREN_ISLAND_CF=true, MYRMEX_HIVE_DESERT_CF=true, SPAWN_HIPPOCAMPUS_CF=true, FIRE_DRAGON_ROOST_CF=true, MYRMEX_HIVE_JUNGLE_CF=true, GORGON_TEMPLE_CF=true, COPPER_ORE_CF=true, SILVER_ORE_CF=true, LIGHTNING_DRAGON_CAVE_CF=true, SPAWN_DRAGON_SKELETON_F_CF=true, AMETHYST_ORE_CF=true, SPAWN_DRAGON_SKELETON_L_CF=true, LIGHTNING_LILY_CF=true, MAUSOLEUM_CF=true, ICE_DRAGON_CAVE_CF=true, GRAVEYARD_CF=true, SAPPHIRE_ORE_CF=true, LIGHTNING_DRAGON_ROOST_CF=true, CYCLOPS_CAVE_CF=true, FROST_LILY_CF=true, FIRE_LILY_CF=true, ICE_DRAGON_ROOST_CF=true}
+[05Jul2025 02:03:43.356] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[05Jul2025 02:03:46.081] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
+[05Jul2025 02:03:59.899] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@1a988667
+[05Jul2025 02:03:59.973] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: JeanPincho[/100.90.254.118:62183] logged in with entity id 145 at (-72.72014381807696, 69.49314823739232, -52.53336020381508)
+[05Jul2025 02:04:00.031] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: JeanPincho joined the game
+[05Jul2025 02:04:00.271] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:general'
+[05Jul2025 02:04:00.274] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:item_values'
+[05Jul2025 02:04:00.276] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:commands'
+[05Jul2025 02:04:08.110] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@558ac8aa
+[05Jul2025 02:04:08.131] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: TonTin[/100.127.139.120:59119] logged in with entity id 354 at (-61.83612141936201, 68.25220334025373, -50.45211503868388)
+[05Jul2025 02:04:08.136] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: TonTin joined the game
+[05Jul2025 02:04:08.224] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:general'
+[05Jul2025 02:04:08.227] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:item_values'
+[05Jul2025 02:04:08.227] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:commands'
+[05Jul2025 02:04:09.329] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@7b82b78a[id=<null>,name=Yair1700pro,properties={},legacy=false] (/100.110.29.36:64493) lost connection: Disconnected
+[05Jul2025 02:04:15.993] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> no vuelvas a hacer esa mrda oe
+[05Jul2025 02:04:21.936] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@3aae4ff9[id=<null>,name=Yair1700pro,properties={},legacy=false] (/100.110.29.36:64494) lost connection: Disconnected
+[05Jul2025 02:04:25.438] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@7cefd5d[id=<null>,name=Yair1700pro,properties={},legacy=false] (/100.110.29.36:64498) lost connection: Disconnected
+[05Jul2025 02:04:27.645] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <TonTin> tu pc es de kbros?
+[05Jul2025 02:04:34.754] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4948ms or 98 ticks behind
+[05Jul2025 02:04:34.867] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@35a7643f[id=<null>,name=Yair1700pro,properties={},legacy=false] (/100.110.29.36:64499) lost connection: Disconnected
+[05Jul2025 02:04:34.896] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: TonTin moved too quickly! -3.993762998020891,-1.0,-9.285827534923214
+[05Jul2025 02:04:34.911] [Server thread/WARN] [net.minecraft.network.play.ServerPlayNetHandler/]: JeanPincho moved too quickly! 7.33120308246442,3.789620115946377,5.866213912867295
+[05Jul2025 02:04:35.261] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@664c2076[id=<null>,name=Yair1700pro,properties={},legacy=false] (/100.110.29.36:64503) lost connection: Disconnected
+[05Jul2025 02:04:37.180] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.advancements.PlayerAdvancements@61d4d613
+[05Jul2025 02:04:37.201] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: iurno[/100.127.107.84:59267] logged in with entity id 379 at (-72.04035929810836, 65.0, -63.90257193627184)
+[05Jul2025 02:04:37.208] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: iurno joined the game
+[05Jul2025 02:04:37.362] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:general'
+[05Jul2025 02:04:37.363] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:item_values'
+[05Jul2025 02:04:37.365] [Server thread/INFO] [ToolLeveling/]: Sending config to client: 'toolleveling:commands'
+[05Jul2025 02:04:38.505] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@21ac985b[id=<null>,name=Yair1700pro,properties={},legacy=false] (/100.110.29.36:64507) lost connection: Disconnected
+[05Jul2025 02:04:40.591] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> es un baje tiene muchos mods esa vaina
+[05Jul2025 02:04:56.650] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> quiero ver algo oe
+[05Jul2025 02:05:00.822] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> xDDD
+[05Jul2025 02:05:01.055] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@64773ef2[id=<null>,name=Yair1700pro,properties={},legacy=false] (/100.110.29.36:64560) lost connection: Disconnected
+[05Jul2025 02:05:03.016] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@701f0aa4[id=<null>,name=Yair1700pro,properties={},legacy=false] (/100.110.29.36:64561) lost connection: Disconnected
+[05Jul2025 02:05:24.092] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: TonTin has made the advancement [Stone Age]
+[05Jul2025 02:05:26.455] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Removed 8 items from player TonTin]
+[05Jul2025 02:05:27.419] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: iurno has made the advancement [Monster Hunter]
+[05Jul2025 02:05:30.803] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Removed 38 items from player iurno]
+[05Jul2025 02:05:37.491] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Set own game mode to Survival Mode]
+[05Jul2025 02:05:37.493] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Set TonTin's game mode to Survival Mode]
+[05Jul2025 02:05:39.243] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@4b29dd78[id=<null>,name=Yair1700pro,properties={},legacy=false] (/100.110.29.36:64565) lost connection: Disconnected
+[05Jul2025 02:05:40.442] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: JeanPincho was blown up by Creeper
+[05Jul2025 02:05:41.698] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@5830a0ec[id=<null>,name=Yair1700pro,properties={},legacy=false] (/100.110.29.36:64569) lost connection: Disconnected
+[05Jul2025 02:05:41.958] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[05Jul2025 02:05:41.960] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
+[05Jul2025 02:05:43.004] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: iurno was shot by Skeleton
+[05Jul2025 02:05:43.357] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> xDD
+[05Jul2025 02:05:44.728] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[05Jul2025 02:05:44.731] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
+[05Jul2025 02:05:45.284] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Set own game mode to Creative Mode]
+[05Jul2025 02:06:03.578] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> DDD
+[05Jul2025 02:06:05.176] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> xDD
+[05Jul2025 02:06:26.883] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@7f3857fa[id=<null>,name=Yair1700pro,properties={},legacy=false] (/100.110.29.36:64585) lost connection: Disconnected
+[05Jul2025 02:06:42.003] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Teleported JeanPincho to -195.5, 83.24820185284123, 176.5]
+[05Jul2025 02:06:44.554] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Teleported JeanPincho to -195.5, 83.24820185284123, 176.5]
+[05Jul2025 02:06:51.612] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Teleported JeanPincho to -195.5, 83.24820185284123, 176.5]
+[05Jul2025 02:06:55.049] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Teleported JeanPincho to -195.5, 72.4257107514123, 176.5]
+[05Jul2025 02:07:28.938] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> xD
+[05Jul2025 02:07:32.229] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> q oe
+[05Jul2025 02:07:34.143] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <TonTin> hijo de puta
+[05Jul2025 02:07:36.653] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <TonTin> hzame tp
+[05Jul2025 02:07:38.416] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Teleported JeanPincho to TonTin]
+[05Jul2025 02:07:39.660] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <TonTin> imbecil
+[05Jul2025 02:07:56.896] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> xD
+[05Jul2025 02:08:02.422] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: TonTin was blown up by Creeper
+[05Jul2025 02:08:04.173] [Server thread/INFO] [Scaling Health/]: Player lost 0.00 heart crystal(s)
+[05Jul2025 02:08:04.179] [Server thread/INFO] [Scaling Health/]: Player lost -0.00 difficulty
+[05Jul2025 02:08:06.810] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> xD
+[05Jul2025 02:08:11.596] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Set the time to 1000]
+[05Jul2025 02:08:15.075] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@522e2870[id=<null>,name=Yair1700pro,properties={},legacy=false] (/100.110.29.36:64774) lost connection: Disconnected
+[05Jul2025 02:08:18.636] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@14359132[id=<null>,name=Yair1700pro,properties={},legacy=false] (/100.110.29.36:64781) lost connection: Disconnected
+[05Jul2025 02:08:21.876] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@750f40f2[id=<null>,name=Yair1700pro,properties={},legacy=false] (/100.110.29.36:64785) lost connection: Disconnected
+[05Jul2025 02:08:25.978] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <JeanPincho> el tontin se esta mueriendo
+[05Jul2025 02:08:28.447] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@72469973[id=<null>,name=Yair1700pro,properties={},legacy=false] (/100.110.29.36:64789) lost connection: Disconnected
+[05Jul2025 02:08:34.033] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [JeanPincho: Teleported JeanPincho to TonTin]
+[05Jul2025 02:08:36.662] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2056ms or 41 ticks behind
+[05Jul2025 02:08:37.392] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@59061e2e[id=<null>,name=Yair1700pro,properties={},legacy=false] (/100.110.29.36:64796) lost connection: Disconnected
+[05Jul2025 02:08:39.973] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: TonTin has made the advancement [Monster Hunter]
+[05Jul2025 02:08:56.513] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4207ms or 84 ticks behind
+[05Jul2025 02:08:56.859] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@504dc786[id=<null>,name=Yair1700pro,properties={},legacy=false] (/100.110.29.36:64807) lost connection: Disconnected
+[05Jul2025 02:09:23.180] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: JeanPincho lost connection: Disconnected
+[05Jul2025 02:09:23.182] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: JeanPincho left the game
+[05Jul2025 02:10:36.724] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@7481b017[id=<null>,name=Yair1700pro,properties={},legacy=false] (/100.110.29.36:57756) lost connection: Disconnected
+[05Jul2025 02:10:50.165] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <TonTin> os
+[05Jul2025 02:10:56.936] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: <TonTin> dhs
