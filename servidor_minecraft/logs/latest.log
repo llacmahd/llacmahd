@@ -802,3 +802,18 @@ com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown st
 [05Jul2025 01:16:59.937] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: TonTin has made the advancement [Ice and Fire]
 [05Jul2025 01:17:19.175] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: TonTin lost connection: Disconnected
 [05Jul2025 01:17:19.176] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: TonTin left the game
+[05Jul2025 01:29:53.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[05Jul2025 01:29:53.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[05Jul2025 01:29:53.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[05Jul2025 01:29:53.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[05Jul2025 01:29:53.878] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05Jul2025 01:29:53.878] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[05Jul2025 01:29:53.880] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05Jul2025 01:29:53.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[05Jul2025 01:29:53.881] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05Jul2025 01:29:53.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/witherstormmod:bowels
+[05Jul2025 01:29:53.882] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (bowels): All chunks are saved
+[05Jul2025 01:29:53.908] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[05Jul2025 01:29:53.929] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[05Jul2025 01:29:53.930] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[05Jul2025 01:29:53.931] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (bowels): All chunks are saved
