@@ -1,0 +1,16 @@
+{
+  "iceandfire:iceandfire/root": {
+    "criteria": {
+      "tick": "2025-07-05 01:03:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:forest": "2025-07-05 01:07:56 +0000",
+      "minecraft:plains": "2025-07-05 01:03:43 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 2586
+}
